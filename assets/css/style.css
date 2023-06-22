@@ -144,6 +144,9 @@ a {
   display: flex;
   max-height: 220px; */
 }
+.tiles__item--img-res {
+  height: 212px !important;
+}
 .home-menu-bottom-widget,
 .home-menu-bottom-widget > a.promotion,
 .home-menu-bottom-widget > a.promotion > img {
