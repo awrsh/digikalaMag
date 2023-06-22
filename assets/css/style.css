@@ -94,6 +94,9 @@ a {
   color: #b0b0b0;
   padding: 25px 15px;
 }
+.offcanvas-body .menu__row--txt {
+  font-size: 18px;
+}
 /* Header  */
 
 /* main  */
@@ -128,7 +131,7 @@ a {
   -webkit-flex-grow: 1;
   flex-grow: 0.9;
   color: #6b7074;
-  font-size: 18px;
+  font-size: 13px;
   padding-top: 3px;
 }
 .menu__row--txt i {
