@@ -11,6 +11,12 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
     />
 
+    <!-- Bootstrap Icon  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
     <!-- Swiper Css  -->
     <link
       rel="stylesheet"
@@ -23,18 +29,192 @@
     <link rel="stylesheet" href="assets/css/responsive.css" />
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-3">
+    <div class="top-header">
+      <div id="home-top-banner-sidebar" class="home-top-tile-banner-single">
+        <h2 class="disappear">home top banner ad</h2>
+        <div
+          id="media_image-2"
+          class="home-hover-widget widget-wrapper widget_media_image mb-3"
+        >
+          <a href=""
+            ><img
+              width="100%"
+              height="100%"
+              src="https://www.digikala.com/mag/wp-content/uploads/2023/06/1020x130-px-Mobile-1401.11.26-C.jpg"
+              class="image wp-image-1276065 attachment-full size-full"
+              alt="راهنمای خرید"
+              decoding="async"
+              loading="lazy"
+              style="max-width: 100%; height: auto"
+              srcset="
+                https://www.digikala.com/mag/wp-content/uploads/2023/06/1020x130-px-Mobile-1401.11.26-C.jpg        1020w,
+                https://www.digikala.com/mag/wp-content/uploads/2023/06/1020x130-px-Mobile-1401.11.26-C-300x38.jpg  300w,
+                https://www.digikala.com/mag/wp-content/uploads/2023/06/1020x130-px-Mobile-1401.11.26-C-768x98.jpg  768w
+              "
+              sizes="(max-width: 1020px) 100vw, 1020px"
+          /></a>
+        </div>
+      </div>
+    </div>
+    <div class="align-items-center justify-content-between top-header-content">
+      <div class="d-flex align-items-center">
+        <a
+          class="fs-1"
+          data-bs-toggle="offcanvas"
+          href="#offcanvasExample"
+          role="button"
+          aria-controls="offcanvasExample"
+        >
+          <i class="bi bi-list"></i>
+        </a>
+        <div
+          class="offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasExample"
+          aria-labelledby="offcanvasExampleLabel"
+        >
+          <div class="offcanvas-header">
+            <a href="https://www.digikala.com/mag/" class="logo white fs-2 fw-bold w-100 py-2">
+              DigikalaMAG
+              <i class="icon-dkmag-logo-horizontal"></i>
+            </a>
+            <!-- <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button> -->
+          </div>
+          <div class="offcanvas-body">
+            <nav class="homepage__header__aside">
+              <h2 class="disappear">main menu</h2>
+              <ul id="menu-homepage-menu" class="menu mega-menu">
+                <li
+                  id="menu-item-436965"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu__row page-435443"
+                >
+                  <a
+                    title="تکنولوژی و کالای دیجیتال"
+                    href="https://www.digikala.com/mag/tech/"
+                    class="menu-item-anchor menu__row--txt bi bi-card-list"
+                    data-object="page"
+                    data-id="435443"
+                    ><i class="icon-tech-m"></i>تکنولوژی و کالای دیجیتال</a
+                  >
+                </li>
+                <li
+                  id="menu-item-436965"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu__row page-435443"
+                >
+                  <a
+                    title="تکنولوژی و کالای دیجیتال"
+                    href="https://www.digikala.com/mag/tech/"
+                    class="menu-item-anchor menu__row--txt bi bi-ubuntu"
+                    data-object="page"
+                    data-id="435443"
+                    ><i class="icon-tech-m"></i>تکنولوژی و کالای دیجیتال</a
+                  >
+                </li>
+                <li
+                  id="menu-item-435723"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu__row page-433489"
+                >
+                  <a
+                    title="بازی و سرگرمی"
+                    href="https://www.digikala.com/mag/game/"
+                    class="menu-item-anchor menu__row--txt bi bi-controller"
+                    data-object="page"
+                    data-id="433489"
+                    ><i class="icon-game-m"></i>بازی و سرگرمی</a
+                  >
+                </li>
+                <li
+                  id="menu-item-454195"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu__row page-453291"
+                >
+                  <a
+                    title="کتاب و ادبیات"
+                    href="https://www.digikala.com/mag/literature/"
+                    class="menu-item-anchor menu__row--txt bi bi-book"
+                    data-object="page"
+                    data-id="453291"
+                    ><i class="icon-culture-m"></i>کتاب و ادبیات</a
+                  >
+                </li>
+                <li
+                  id="menu-item-435727"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu__row page-434417"
+                >
+                  <a
+                    title="فرهنگ و هنر"
+                    href="https://www.digikala.com/mag/culture-art/"
+                    class="menu-item-anchor menu__row--txt bi bi-camera-video"
+                    data-object="page"
+                    data-id="434417"
+                    ><i class="icon-movie-clipper"></i>فرهنگ و هنر</a
+                  >
+                </li>
+                <li
+                  id="menu-item-435725"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu__row page-434007"
+                >
+                  <a
+                    title="سبک زندگی"
+                    href="https://www.digikala.com/mag/lifestyle/"
+                    class="menu-item-anchor menu__row--txt bi bi-tree"
+                    data-object="page"
+                    data-id="434007"
+                    ><i class="icon-health-m"></i>سبک زندگی</a
+                  >
+                </li>
+                <li class="menu__footer">
+                  <i class="menu__footer--dk-icon">
+                    <i class="icon-dk-smile"></i>
+                  </i>
+                  <a
+                    href="https://www.digikala.com/?utm_source=digikalabutton&amp;utm_medium=DIGIKALAMAG&amp;utm_term=button_dkmag&amp;utm_content=homepage"
+                    class="menu__footer--txt"
+                    title="فروشگاه اینترنتی دیجی&zwnj;کالا"
+                    target="_blank"
+                    >فروشگاه اینترنتی دیجی&zwnj;کالا</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="ms-3">
           <a
             href="https://www.digikala.com/mag/"
-            title="دیجی&zwnj;کالا مگ"
-            class="logo"
+            class="logo white fs-2 fw-bold w-25"
           >
+            DigikalaMAG
             <i class="icon-dkmag-logo-horizontal"></i>
           </a>
         </div>
-        <div class="col-lg-9">
+      </div>
+
+      <div>
+        <div class="search search-btn">
+          <a href="https://www.digikala.com/mag/?s=">
+            <i class="bi bi-search icon-search"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3 col-xl-2 d-flex">
+          <a
+            href="https://www.digikala.com/mag/"
+            class="logo logo-res white fs-2 fw-bold w-100"
+          >
+            DigikalaMAG
+            <i class="icon-dkmag-logo-horizontal"></i>
+          </a>
+        </div>
+        <div class="col-xl-9 col-12">
           <header class="homepage__top d-flex mt-2">
             <div class="hashtag">
               <div class="hashtag__title">
@@ -42,40 +222,52 @@
               </div>
               <div class="hashtag__wrapper">
                 <a
-                  href="https://www.digikala.com/mag/tag/%d8%a7%d8%ae%d8%a8%d8%a7%d8%b1-%d8%b3%db%8c%d9%86%d9%85%d8%a7%db%8c-%d8%ac%d9%87%d8%a7%d9%86/"
+                  href=""
                   class="tag-cloud-link tag-link-192 hashtag__item tag-link-position-1"
                   style="font-size: 1"
                   >#سینمای جهان</a
                 >
                 <a
-                  href="https://www.digikala.com/mag/tag/%d8%ac%d8%b9%d8%a8%d9%87-%da%af%d8%b4%d8%a7%db%8c%db%8c/"
+                  href=""
                   class="tag-cloud-link tag-link-7152 hashtag__item tag-link-position-2"
                   style="font-size: 1"
                   >#جعبه گشایی</a
                 >
                 <a
-                  href="https://www.digikala.com/mag/tag/%d9%86%d9%82%d8%af-%d9%88-%d8%a8%d8%b1%d8%b1%d8%b3%db%8c-%d9%88%db%8c%d8%af%db%8c%d9%88%db%8c%db%8c/"
+                  href=""
+                  class="tag-cloud-link tag-link-7152 hashtag__item tag-link-position-2"
+                  style="font-size: 1"
+                  >#جعبه گشایی</a
+                >
+                <a
+                  href=""
+                  class="tag-cloud-link tag-link-7152 hashtag__item tag-link-position-2"
+                  style="font-size: 1"
+                  >#جعبه گشایی</a
+                >
+                <a
+                  href=""
                   class="tag-cloud-link tag-link-8467 hashtag__item tag-link-position-3"
                   style="font-size: 1"
                   >#نقد و بررسی ویدیویی</a
                 >
                 <a
-                  href="https://www.digikala.com/mag/tag/the-last-of-us/"
+                  href=""
                   class="tag-cloud-link tag-link-321 hashtag__item ltr tag-link-position-4"
                   style="font-size: 1"
                   >#The Last of Us</a
                 >
                 <a
-                  href="https://www.digikala.com/mag/tag/tlou-10th-anniversary/"
+                  href=""
                   class="tag-cloud-link tag-link-66536 hashtag__item ltr tag-link-position-5"
                   style="font-size: 1"
                   >#The Last of Us 10th anniversary</a
                 >
               </div>
             </div>
-            <div class="search search-btn">
+            <div class="search search-btn search-btn-res">
               <a href="https://www.digikala.com/mag/?s=">
-                <i class="icon-search"></i>
+                <i class="bi bi-search icon-search"></i>
               </a>
             </div>
           </header>
@@ -87,10 +279,10 @@
       <!-- Into-page  -->
       <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-xl-2 d-none d-xl-block">
             <nav class="homepage__header__aside">
               <h2 class="disappear">main menu</h2>
-              <ul id="menu-homepage-menu" class="menu mega-menu">
+              <ul id="menu-homepage-menu" class="menu mega-menu mega-menu-res">
                 <li
                   id="menu-item-436965"
                   class="menu-item menu-item-type-post_type menu-item-object-page menu__row page-435443"
@@ -183,6 +375,8 @@
                 </li>
               </ul>
             </nav>
+            <div class="overlay"></div>
+            <!-- Add this div after the nav element -->
             <aside id="home-menu-bottom-sidebar" class="sidebar mt-3">
               <h2 class="disappear">home menu bottom sidebar</h2>
               <div
@@ -207,20 +401,19 @@
               </div>
             </aside>
           </div>
-          <div class="col-lg-9">
+          <div class="col-xl-9 col-12">
             <div class="homepage__header">
               <div class="homepage__header__content">
                 <div
                   id="home-top-banner-sidebar"
-                  class="home-top-tile-banner-single"
+                  class="home-top-tile-banner-single home-top-tile-banner-res"
                 >
                   <h2 class="disappear">home top banner ad</h2>
                   <div
                     id="media_image-2"
                     class="home-hover-widget widget-wrapper widget_media_image mb-3"
                   >
-                    <a
-                      href="https://www.digikala.com/mag/category/buying-guide/"
+                    <a href=""
                       ><img
                         width="100%"
                         height="100%"
@@ -270,7 +463,7 @@
                             href="https://www.digikala.com/mag/video/xiaomi-poco-f5-dual-sim-256gb-unboxing-review/"
                             id="tile-1-5-0"
                             target="_self"
-                            class="tiles__item square"
+                            class="tiles__item square tiles__item square2"
                           >
                             <img
                               src="https://www.digikala.com/mag/wp-content/uploads/2023/06/03.24-10.jpg"
@@ -292,7 +485,7 @@
                             href="https://www.digikala.com/mag/video/xiaomi-poco-f5-dual-sim-256gb-unboxing-review/"
                             id="tile-1-5-0"
                             target="_self"
-                            class="tiles__item square"
+                            class="tiles__item square tiles__item square2"
                           >
                             <img
                               src="https://www.digikala.com/mag/wp-content/uploads/2023/06/03.24-10.jpg"
@@ -314,7 +507,7 @@
                             href="https://www.digikala.com/mag/video/xiaomi-poco-f5-dual-sim-256gb-unboxing-review/"
                             id="tile-1-5-0"
                             target="_self"
-                            class="tiles__item square"
+                            class="tiles__item square tiles__item square2"
                           >
                             <img
                               src="https://www.digikala.com/mag/wp-content/uploads/2023/06/03.24-10.jpg"
@@ -336,7 +529,7 @@
                             href="https://www.digikala.com/mag/video/xiaomi-poco-f5-dual-sim-256gb-unboxing-review/"
                             id="tile-1-5-0"
                             target="_self"
-                            class="tiles__item square"
+                            class="tiles__item square tiles__item square2"
                           >
                             <img
                               src="https://www.digikala.com/mag/wp-content/uploads/2023/06/03.24-10.jpg"
@@ -354,6 +547,81 @@
                           </a>
                         </div>
                       </div>
+                    </div>
+                  </div>
+                </div>
+                <div class=" ">
+                  <div class=" ">
+                    <div class="swiper IntroSwiper">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <a
+                            href="https://www.digikala.com/mag/video/xiaomi-poco-f5-dual-sim-256gb-unboxing-review/"
+                            id="tile-1-5-0"
+                            target="_self"
+                            class="tiles__item square"
+                          >
+                            <img
+                              src="https://www.digikala.com/mag/wp-content/uploads/2023/06/03.24-10.jpg"
+                              alt="چرا گوشی شیائومی پوکو F5 ارزش خرید بالایی دارد؟"
+                              width="928"
+                              height="522"
+                              class="tiles__item--img w-100"
+                            />
+                            <span class="tiles__item--txt">
+                              <span
+                                >چرا گوشی شیائومی پوکو F5 ارزش خرید بالایی
+                                دارد؟</span
+                              >
+                            </span>
+                          </a>
+                        </div>
+                        <div class="swiper-slide">
+                          <a
+                            href="https://www.digikala.com/mag/video/xiaomi-poco-f5-dual-sim-256gb-unboxing-review/"
+                            id="tile-1-5-0"
+                            target="_self"
+                            class="tiles__item square"
+                          >
+                            <img
+                              src="https://www.digikala.com/mag/wp-content/uploads/2023/06/03.24-10.jpg"
+                              alt="چرا گوشی شیائومی پوکو F5 ارزش خرید بالایی دارد؟"
+                              width="928"
+                              height="522"
+                              class="tiles__item--img w-100"
+                            />
+                            <span class="tiles__item--txt">
+                              <span
+                                >چرا گوشی شیائومی پوکو F5 ارزش خرید بالایی
+                                دارد؟</span
+                              >
+                            </span>
+                          </a>
+                        </div>
+                        <div class="swiper-slide">
+                          <a
+                            href="https://www.digikala.com/mag/video/xiaomi-poco-f5-dual-sim-256gb-unboxing-review/"
+                            id="tile-1-5-0"
+                            target="_self"
+                            class="tiles__item square"
+                          >
+                            <img
+                              src="https://www.digikala.com/mag/wp-content/uploads/2023/06/03.24-10.jpg"
+                              alt="چرا گوشی شیائومی پوکو F5 ارزش خرید بالایی دارد؟"
+                              width="928"
+                              height="522"
+                              class="tiles__item--img w-100"
+                            />
+                            <span class="tiles__item--txt">
+                              <span
+                                >چرا گوشی شیائومی پوکو F5 ارزش خرید بالایی
+                                دارد؟</span
+                              >
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                      <!-- <div class="swiper-pagination"></div> -->
                     </div>
                   </div>
                 </div>
@@ -641,7 +909,7 @@
               </div>
             </div>
           </div>
-          <div class="swiper-pagination"></div>
+          <!-- <div class="swiper-pagination"></div> -->
         </div>
       </section>
       <!-- Selected-by-Editor  -->
@@ -682,14 +950,17 @@
                       طرز تهیه زرشک پلو با مرغ مجلسی خوش عطر و ...
                     </div>
                     <div class="detail-wrapper__time">
-                      <i class="icon-clock-icon"></i>
-                      <span class="detail-wrapper__time--detail"
-                        >۳ ساعت قبل</span
-                      >
+                      <div>
+                        <i class="icon-clock-icon bi bi-clock"></i>
+                        <span class="detail-wrapper__time--detail"
+                          >۳ ساعت قبل</span
+                        >
+                      </div>
                       <a
                         href="https://www.digikala.com/mag/video/zereshk-polo-recipe/"
                         title="طرز تهیه زرشک پلو با مرغ مجلسی خوش عطر و طعم"
-                        class="icon-see-more"
+                      >
+                        <i class="bi bi-three-dots icon-see-more"></i
                       ></a>
                     </div>
                   </div>
@@ -717,14 +988,16 @@
                       چرا گوشی شیائومی پوکو F5 ارزش خرید بالای ...
                     </div>
                     <div class="detail-wrapper__time">
-                      <i class="icon-clock-icon"></i>
-                      <span class="detail-wrapper__time--detail"
-                        >۱۷ ساعت قبل</span
-                      >
+                      <div>
+                        <i class="icon-clock-icon bi bi-clock"></i>
+                        <span class="detail-wrapper__time--detail"
+                          >۳ ساعت قبل</span
+                        >
+                      </div>
                       <a
                         href="https://www.digikala.com/mag/video/xiaomi-poco-f5-dual-sim-256gb-unboxing-review/"
                         title="چرا گوشی شیائومی پوکو F5 ارزش خرید بالایی دارد؟"
-                        class="icon-see-more"
+                        ><i class="bi bi-three-dots icon-see-more"></i
                       ></a>
                     </div>
                   </div>
@@ -752,14 +1025,16 @@
                       چرا گوشی شیائومی پوکو F5 ارزش خرید بالای ...
                     </div>
                     <div class="detail-wrapper__time">
-                      <i class="icon-clock-icon"></i>
-                      <span class="detail-wrapper__time--detail"
-                        >۱۷ ساعت قبل</span
-                      >
+                      <div>
+                        <i class="icon-clock-icon bi bi-clock"></i>
+                        <span class="detail-wrapper__time--detail"
+                          >۳ ساعت قبل</span
+                        >
+                      </div>
                       <a
                         href="https://www.digikala.com/mag/video/xiaomi-poco-f5-dual-sim-256gb-unboxing-review/"
                         title="چرا گوشی شیائومی پوکو F5 ارزش خرید بالایی دارد؟"
-                        class="icon-see-more"
+                        ><i class="bi bi-three-dots icon-see-more"></i
                       ></a>
                     </div>
                   </div>
@@ -787,14 +1062,16 @@
                       چرا گوشی شیائومی پوکو F5 ارزش خرید بالای ...
                     </div>
                     <div class="detail-wrapper__time">
-                      <i class="icon-clock-icon"></i>
-                      <span class="detail-wrapper__time--detail"
-                        >۱۷ ساعت قبل</span
-                      >
+                      <div>
+                        <i class="icon-clock-icon bi bi-clock"></i>
+                        <span class="detail-wrapper__time--detail"
+                          >۳ ساعت قبل</span
+                        >
+                      </div>
                       <a
                         href="https://www.digikala.com/mag/video/xiaomi-poco-f5-dual-sim-256gb-unboxing-review/"
                         title="چرا گوشی شیائومی پوکو F5 ارزش خرید بالایی دارد؟"
-                        class="icon-see-more"
+                        ><i class="bi bi-three-dots icon-see-more"></i
                       ></a>
                     </div>
                   </div>
@@ -822,14 +1099,16 @@
                       چرا گوشی شیائومی پوکو F5 ارزش خرید بالای ...
                     </div>
                     <div class="detail-wrapper__time">
-                      <i class="icon-clock-icon"></i>
-                      <span class="detail-wrapper__time--detail"
-                        >۱۷ ساعت قبل</span
-                      >
+                      <div>
+                        <i class="icon-clock-icon bi bi-clock"></i>
+                        <span class="detail-wrapper__time--detail"
+                          >۱۷ ساعت قبل</span
+                        >
+                      </div>
                       <a
                         href="https://www.digikala.com/mag/video/xiaomi-poco-f5-dual-sim-256gb-unboxing-review/"
                         title="چرا گوشی شیائومی پوکو F5 ارزش خرید بالایی دارد؟"
-                        class="icon-see-more"
+                        ><i class="bi bi-three-dots icon-see-more"></i
                       ></a>
                     </div>
                   </div>
@@ -916,34 +1195,39 @@
                 </div>
                 <div class="media-watch__detail">
                   <div class="author">
-                    <div class="user-profile-stat-wrapper">
-                      <img
-                        src="https://www.digikala.com/mag/wp-content/uploads/2020/04/Maryam-Embrahimi-2-60x60.jpg"
-                        width="30"
-                        height="30"
-                        alt="مریم ابراهیمی"
-                        class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo"
-                      />
-                      <span class="author__name"
+                    <div
+                      style="
+                        background-color: #aaaaaa;
+                        color: #ffffff;
+                        border-radius: 3px;
+                      "
+                      class="custom-author-background user-profile-stat-wrapper"
+                    >
+                      <span
+                        style="background-color: #aaaaaa; color: #ffffff"
+                        class="author__name"
                         ><a
-                          href="https://www.digikala.com/mag/user/227840/"
-                          title="ارسال شده توسط مریم ابراهیمی"
+                          href="https://www.digikala.com/mag/user/268852/"
+                          title="ارسال شده توسط علیرضا افشار"
                           rel="author"
-                          >مریم ابراهیمی</a
+                          class="white"
+                          >علیرضا افشار</a
                         ></span
                       >
                     </div>
-                    <i class="icon-clock-icon"></i>
-                    <span class="author__time">۴ ساعت قبل</span>
+                    <i class="icon-clock-icon bi bi-clock"></i>
+                    <span class="author__time">۱۸ ساعت قبل</span>
                   </div>
                   <div class="popularity">
-                    <div class="popularity__comments">
-                      <i class="icon-comment"></i>
-                      <span class="popularity__comments--num">۰</span>
+                    <div
+                      class="popularity__likes d-flex align-items-center ms-3"
+                    >
+                      <i class="icon-like-icon bi bi-heart"></i>
+                      <span class="popularity__likes--num">۵</span>
                     </div>
-                    <div class="popularity__likes">
-                      <i class="icon-like-icon"></i>
-                      <span class="popularity__likes--num">۲</span>
+                    <div class="popularity__comments d-flex align-items-center">
+                      <i class="icon-comment bi bi-chat"></i>
+                      <span class="popularity__comments--num">۰</span>
                     </div>
                   </div>
                 </div>
@@ -970,7 +1254,7 @@
                 <section class="masonry-gallery" style="position: relative">
                   <h2 class="disappear">جدیدترین اخبار و مقاله&zwnj;ها</h2>
                   <div class="row justify-content-between">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-6 col-12">
                       <div class="masonry-gallery__item">
                         <div class="image">
                           <span class="image__mask"></span>
@@ -1023,46 +1307,47 @@
                             </span>
                           </span>
                         </div>
+                        <div>
+                          <a
+                            href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
+                            title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
+                            class="masonry-gallery__item__title"
+                            >چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی
+                            نخواهد بود؟</a
+                          >
 
-                        <a
-                          href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                          title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                          class="masonry-gallery__item__title"
-                          >چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی
-                          نخواهد بود؟</a
-                        >
-
-                        <div class="masonry-gallery__item__description">
-                          هوش مصنوعی سراغ حرفه&zwnj;ی شما هم خواهد آمد. این را
-                          آتش&zwnj;بیار&zwnj;های معرکه&zwnj;ی توییتر
-                          می&zwnj;نویسند و مدام آن را ف ...
-                        </div>
-                        <div class="masonry-gallery__item__detail">
-                          <div class="user-profile-stat-wrapper">
-                            <span class="user-pic-wrapper">
-                              <img
-                                src="https://www.digikala.com/mag/wp-content/uploads/2021/05/DSC00680-60x60.jpg"
-                                width="30"
-                                height="30"
-                                alt="مجتبی فرهودیان"
-                                class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo"
-                              />
-                            </span>
-                            <span class="author">
-                              <a
-                                href="https://www.digikala.com/mag/user/87017/"
-                                title="ارسال شده توسط مجتبی فرهودیان"
-                                rel="author"
-                                >مجتبی فرهودیان</a
-                              >
-                            </span>
+                          <div class="masonry-gallery__item__description">
+                            هوش مصنوعی سراغ حرفه&zwnj;ی شما هم خواهد آمد. این را
+                            آتش&zwnj;بیار&zwnj;های معرکه&zwnj;ی توییتر
+                            می&zwnj;نویسند و مدام آن را ف ...
                           </div>
-                          <i class="icon-clock-icon"></i>
-                          <span class="past-time">۴۸ ثانیه قبل</span>
+                          <div class="masonry-gallery__item__detail">
+                            <div class="user-profile-stat-wrapper">
+                              <span class="user-pic-wrapper">
+                                <img
+                                  src="https://www.digikala.com/mag/wp-content/uploads/2021/05/DSC00680-60x60.jpg"
+                                  width="30"
+                                  height="30"
+                                  alt="مجتبی فرهودیان"
+                                  class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo"
+                                />
+                              </span>
+                              <span class="author">
+                                <a
+                                  href="https://www.digikala.com/mag/user/87017/"
+                                  title="ارسال شده توسط مجتبی فرهودیان"
+                                  rel="author"
+                                  >مجتبی فرهودیان</a
+                                >
+                              </span>
+                            </div>
+                            <i class="icon-clock-icon"></i>
+                            <span class="past-time">۴۸ ثانیه قبل</span>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-6 col-12">
                       <div class="masonry-gallery__item">
                         <div class="image">
                           <span class="image__mask"></span>
@@ -1115,46 +1400,47 @@
                             </span>
                           </span>
                         </div>
+                        <div>
+                          <a
+                            href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
+                            title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
+                            class="masonry-gallery__item__title"
+                            >چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی
+                            نخواهد بود؟</a
+                          >
 
-                        <a
-                          href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                          title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                          class="masonry-gallery__item__title"
-                          >چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی
-                          نخواهد بود؟</a
-                        >
-
-                        <div class="masonry-gallery__item__description">
-                          هوش مصنوعی سراغ حرفه&zwnj;ی شما هم خواهد آمد. این را
-                          آتش&zwnj;بیار&zwnj;های معرکه&zwnj;ی توییتر
-                          می&zwnj;نویسند و مدام آن را ف ...
-                        </div>
-                        <div class="masonry-gallery__item__detail">
-                          <div class="user-profile-stat-wrapper">
-                            <span class="user-pic-wrapper">
-                              <img
-                                src="https://www.digikala.com/mag/wp-content/uploads/2021/05/DSC00680-60x60.jpg"
-                                width="30"
-                                height="30"
-                                alt="مجتبی فرهودیان"
-                                class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo"
-                              />
-                            </span>
-                            <span class="author">
-                              <a
-                                href="https://www.digikala.com/mag/user/87017/"
-                                title="ارسال شده توسط مجتبی فرهودیان"
-                                rel="author"
-                                >مجتبی فرهودیان</a
-                              >
-                            </span>
+                          <div class="masonry-gallery__item__description">
+                            هوش مصنوعی سراغ حرفه&zwnj;ی شما هم خواهد آمد. این را
+                            آتش&zwnj;بیار&zwnj;های معرکه&zwnj;ی توییتر
+                            می&zwnj;نویسند و مدام آن را ف ...
                           </div>
-                          <i class="icon-clock-icon"></i>
-                          <span class="past-time">۴۸ ثانیه قبل</span>
+                          <div class="masonry-gallery__item__detail">
+                            <div class="user-profile-stat-wrapper">
+                              <span class="user-pic-wrapper">
+                                <img
+                                  src="https://www.digikala.com/mag/wp-content/uploads/2021/05/DSC00680-60x60.jpg"
+                                  width="30"
+                                  height="30"
+                                  alt="مجتبی فرهودیان"
+                                  class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo"
+                                />
+                              </span>
+                              <span class="author">
+                                <a
+                                  href="https://www.digikala.com/mag/user/87017/"
+                                  title="ارسال شده توسط مجتبی فرهودیان"
+                                  rel="author"
+                                  >مجتبی فرهودیان</a
+                                >
+                              </span>
+                            </div>
+                            <i class="icon-clock-icon"></i>
+                            <span class="past-time">۴۸ ثانیه قبل</span>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-6 col-12">
                       <div class="masonry-gallery__item">
                         <div class="image">
                           <span class="image__mask"></span>
@@ -1207,46 +1493,47 @@
                             </span>
                           </span>
                         </div>
+                        <div>
+                          <a
+                            href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
+                            title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
+                            class="masonry-gallery__item__title"
+                            >چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی
+                            نخواهد بود؟</a
+                          >
 
-                        <a
-                          href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                          title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                          class="masonry-gallery__item__title"
-                          >چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی
-                          نخواهد بود؟</a
-                        >
-
-                        <div class="masonry-gallery__item__description">
-                          هوش مصنوعی سراغ حرفه&zwnj;ی شما هم خواهد آمد. این را
-                          آتش&zwnj;بیار&zwnj;های معرکه&zwnj;ی توییتر
-                          می&zwnj;نویسند و مدام آن را ف ...
-                        </div>
-                        <div class="masonry-gallery__item__detail">
-                          <div class="user-profile-stat-wrapper">
-                            <span class="user-pic-wrapper">
-                              <img
-                                src="https://www.digikala.com/mag/wp-content/uploads/2021/05/DSC00680-60x60.jpg"
-                                width="30"
-                                height="30"
-                                alt="مجتبی فرهودیان"
-                                class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo"
-                              />
-                            </span>
-                            <span class="author">
-                              <a
-                                href="https://www.digikala.com/mag/user/87017/"
-                                title="ارسال شده توسط مجتبی فرهودیان"
-                                rel="author"
-                                >مجتبی فرهودیان</a
-                              >
-                            </span>
+                          <div class="masonry-gallery__item__description">
+                            هوش مصنوعی سراغ حرفه&zwnj;ی شما هم خواهد آمد. این را
+                            آتش&zwnj;بیار&zwnj;های معرکه&zwnj;ی توییتر
+                            می&zwnj;نویسند و مدام آن را ف ...
                           </div>
-                          <i class="icon-clock-icon"></i>
-                          <span class="past-time">۴۸ ثانیه قبل</span>
+                          <div class="masonry-gallery__item__detail">
+                            <div class="user-profile-stat-wrapper">
+                              <span class="user-pic-wrapper">
+                                <img
+                                  src="https://www.digikala.com/mag/wp-content/uploads/2021/05/DSC00680-60x60.jpg"
+                                  width="30"
+                                  height="30"
+                                  alt="مجتبی فرهودیان"
+                                  class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo"
+                                />
+                              </span>
+                              <span class="author">
+                                <a
+                                  href="https://www.digikala.com/mag/user/87017/"
+                                  title="ارسال شده توسط مجتبی فرهودیان"
+                                  rel="author"
+                                  >مجتبی فرهودیان</a
+                                >
+                              </span>
+                            </div>
+                            <i class="icon-clock-icon"></i>
+                            <span class="past-time">۴۸ ثانیه قبل</span>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-6 col-12">
                       <div class="masonry-gallery__item">
                         <div class="image">
                           <span class="image__mask"></span>
@@ -1299,1337 +1586,56 @@
                             </span>
                           </span>
                         </div>
+                        <div>
+                          <a
+                            href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
+                            title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
+                            class="masonry-gallery__item__title"
+                            >چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی
+                            نخواهد بود؟</a
+                          >
 
-                        <a
-                          href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                          title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                          class="masonry-gallery__item__title"
-                          >چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی
-                          نخواهد بود؟</a
-                        >
-
-                        <div class="masonry-gallery__item__description">
-                          هوش مصنوعی سراغ حرفه&zwnj;ی شما هم خواهد آمد. این را
-                          آتش&zwnj;بیار&zwnj;های معرکه&zwnj;ی توییتر
-                          می&zwnj;نویسند و مدام آن را ف ...
-                        </div>
-                        <div class="masonry-gallery__item__detail">
-                          <div class="user-profile-stat-wrapper">
-                            <span class="user-pic-wrapper">
-                              <img
-                                src="https://www.digikala.com/mag/wp-content/uploads/2021/05/DSC00680-60x60.jpg"
-                                width="30"
-                                height="30"
-                                alt="مجتبی فرهودیان"
-                                class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo"
-                              />
-                            </span>
-                            <span class="author">
-                              <a
-                                href="https://www.digikala.com/mag/user/87017/"
-                                title="ارسال شده توسط مجتبی فرهودیان"
-                                rel="author"
-                                >مجتبی فرهودیان</a
-                              >
-                            </span>
+                          <div class="masonry-gallery__item__description">
+                            هوش مصنوعی سراغ حرفه&zwnj;ی شما هم خواهد آمد. این را
+                            آتش&zwnj;بیار&zwnj;های معرکه&zwnj;ی توییتر
+                            می&zwnj;نویسند و مدام آن را ف ...
                           </div>
-                          <i class="icon-clock-icon"></i>
-                          <span class="past-time">۴۸ ثانیه قبل</span>
+                          <div class="masonry-gallery__item__detail">
+                            <div class="user-profile-stat-wrapper">
+                              <span class="user-pic-wrapper">
+                                <img
+                                  src="https://www.digikala.com/mag/wp-content/uploads/2021/05/DSC00680-60x60.jpg"
+                                  width="30"
+                                  height="30"
+                                  alt="مجتبی فرهودیان"
+                                  class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo"
+                                />
+                              </span>
+                              <span class="author">
+                                <a
+                                  href="https://www.digikala.com/mag/user/87017/"
+                                  title="ارسال شده توسط مجتبی فرهودیان"
+                                  rel="author"
+                                  >مجتبی فرهودیان</a
+                                >
+                              </span>
+                            </div>
+                            <i class="icon-clock-icon"></i>
+                            <span class="past-time">۴۸ ثانیه قبل</span>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-4">
-                      <div class="masonry-gallery__item">
-                        <div class="image">
-                          <span class="image__mask"></span>
-
-                          <a
-                            href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                            title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                            class="image__linker"
-                          >
-                            <img
-                              width="284"
-                              height="180"
-                              src="https://www.digikala.com/mag/wp-content/uploads/2023/06/123-284x180.jpg"
-                              class="image__img wp-post-image"
-                              alt="هوش مصنوعی. جنگ ستارگان به سبک وس اندرسون"
-                              decoding="async"
-                              loading="lazy"
-                              srcset="
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-284x180.jpg 284w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-300x190.jpg 300w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-768x487.jpg 768w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-120x76.jpg  120w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-265x168.jpg 265w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-274x173.jpg 274w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-220x140.jpg 220w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123.jpg         915w
-                              "
-                              sizes="(max-width: 284px) 100vw, 284px"
-                            />
-                          </a>
-
-                          <a
-                            href="https://www.digikala.com/mag/category/%d9%81%d8%b1%d9%87%d9%86%da%af-%d9%88-%d9%87%d9%86%d8%b1/%d9%81%db%8c%d9%84%d9%85-%d8%b3%d8%b1%db%8c%d8%a7%d9%84/"
-                            title="فیلم و سریال"
-                            class="image__badge"
-                            >فیلم و سریال</a
-                          >
-                          <span class="image__fav">
-                            <span class="popularity">
-                              <span class="popularity__likes">
-                                <i class="icon-like-icon"></i>
-                                <span class="popularity__likes--num">۰</span>
-                              </span>
-                              <span class="popularity__time-to-read">
-                                <i class="icon-stopwatch"></i>
-                                <span class="popularity__minutes-read"
-                                  >۳ دقیقه مطالعه</span
-                                >
-                              </span>
-                            </span>
-                          </span>
-                        </div>
-
-                        <a
-                          href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                          title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                          class="masonry-gallery__item__title"
-                          >چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی
-                          نخواهد بود؟</a
-                        >
-
-                        <div class="masonry-gallery__item__description">
-                          هوش مصنوعی سراغ حرفه&zwnj;ی شما هم خواهد آمد. این را
-                          آتش&zwnj;بیار&zwnj;های معرکه&zwnj;ی توییتر
-                          می&zwnj;نویسند و مدام آن را ف ...
-                        </div>
-                        <div class="masonry-gallery__item__detail">
-                          <div class="user-profile-stat-wrapper">
-                            <span class="user-pic-wrapper">
-                              <img
-                                src="https://www.digikala.com/mag/wp-content/uploads/2021/05/DSC00680-60x60.jpg"
-                                width="30"
-                                height="30"
-                                alt="مجتبی فرهودیان"
-                                class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo"
-                              />
-                            </span>
-                            <span class="author">
-                              <a
-                                href="https://www.digikala.com/mag/user/87017/"
-                                title="ارسال شده توسط مجتبی فرهودیان"
-                                rel="author"
-                                >مجتبی فرهودیان</a
-                              >
-                            </span>
-                          </div>
-                          <i class="icon-clock-icon"></i>
-                          <span class="past-time">۴۸ ثانیه قبل</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4">
-                      <div class="masonry-gallery__item">
-                        <div class="image">
-                          <span class="image__mask"></span>
-
-                          <a
-                            href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                            title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                            class="image__linker"
-                          >
-                            <img
-                              width="284"
-                              height="180"
-                              src="https://www.digikala.com/mag/wp-content/uploads/2023/06/123-284x180.jpg"
-                              class="image__img wp-post-image"
-                              alt="هوش مصنوعی. جنگ ستارگان به سبک وس اندرسون"
-                              decoding="async"
-                              loading="lazy"
-                              srcset="
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-284x180.jpg 284w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-300x190.jpg 300w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-768x487.jpg 768w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-120x76.jpg  120w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-265x168.jpg 265w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-274x173.jpg 274w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-220x140.jpg 220w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123.jpg         915w
-                              "
-                              sizes="(max-width: 284px) 100vw, 284px"
-                            />
-                          </a>
-
-                          <a
-                            href="https://www.digikala.com/mag/category/%d9%81%d8%b1%d9%87%d9%86%da%af-%d9%88-%d9%87%d9%86%d8%b1/%d9%81%db%8c%d9%84%d9%85-%d8%b3%d8%b1%db%8c%d8%a7%d9%84/"
-                            title="فیلم و سریال"
-                            class="image__badge"
-                            >فیلم و سریال</a
-                          >
-                          <span class="image__fav">
-                            <span class="popularity">
-                              <span class="popularity__likes">
-                                <i class="icon-like-icon"></i>
-                                <span class="popularity__likes--num">۰</span>
-                              </span>
-                              <span class="popularity__time-to-read">
-                                <i class="icon-stopwatch"></i>
-                                <span class="popularity__minutes-read"
-                                  >۳ دقیقه مطالعه</span
-                                >
-                              </span>
-                            </span>
-                          </span>
-                        </div>
-
-                        <a
-                          href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                          title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                          class="masonry-gallery__item__title"
-                          >چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی
-                          نخواهد بود؟</a
-                        >
-
-                        <div class="masonry-gallery__item__description">
-                          هوش مصنوعی سراغ حرفه&zwnj;ی شما هم خواهد آمد. این را
-                          آتش&zwnj;بیار&zwnj;های معرکه&zwnj;ی توییتر
-                          می&zwnj;نویسند و مدام آن را ف ...
-                        </div>
-                        <div class="masonry-gallery__item__detail">
-                          <div class="user-profile-stat-wrapper">
-                            <span class="user-pic-wrapper">
-                              <img
-                                src="https://www.digikala.com/mag/wp-content/uploads/2021/05/DSC00680-60x60.jpg"
-                                width="30"
-                                height="30"
-                                alt="مجتبی فرهودیان"
-                                class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo"
-                              />
-                            </span>
-                            <span class="author">
-                              <a
-                                href="https://www.digikala.com/mag/user/87017/"
-                                title="ارسال شده توسط مجتبی فرهودیان"
-                                rel="author"
-                                >مجتبی فرهودیان</a
-                              >
-                            </span>
-                          </div>
-                          <i class="icon-clock-icon"></i>
-                          <span class="past-time">۴۸ ثانیه قبل</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4">
-                      <div class="masonry-gallery__item">
-                        <div class="image">
-                          <span class="image__mask"></span>
-
-                          <a
-                            href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                            title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                            class="image__linker"
-                          >
-                            <img
-                              width="284"
-                              height="180"
-                              src="https://www.digikala.com/mag/wp-content/uploads/2023/06/123-284x180.jpg"
-                              class="image__img wp-post-image"
-                              alt="هوش مصنوعی. جنگ ستارگان به سبک وس اندرسون"
-                              decoding="async"
-                              loading="lazy"
-                              srcset="
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-284x180.jpg 284w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-300x190.jpg 300w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-768x487.jpg 768w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-120x76.jpg  120w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-265x168.jpg 265w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-274x173.jpg 274w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-220x140.jpg 220w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123.jpg         915w
-                              "
-                              sizes="(max-width: 284px) 100vw, 284px"
-                            />
-                          </a>
-
-                          <a
-                            href="https://www.digikala.com/mag/category/%d9%81%d8%b1%d9%87%d9%86%da%af-%d9%88-%d9%87%d9%86%d8%b1/%d9%81%db%8c%d9%84%d9%85-%d8%b3%d8%b1%db%8c%d8%a7%d9%84/"
-                            title="فیلم و سریال"
-                            class="image__badge"
-                            >فیلم و سریال</a
-                          >
-                          <span class="image__fav">
-                            <span class="popularity">
-                              <span class="popularity__likes">
-                                <i class="icon-like-icon"></i>
-                                <span class="popularity__likes--num">۰</span>
-                              </span>
-                              <span class="popularity__time-to-read">
-                                <i class="icon-stopwatch"></i>
-                                <span class="popularity__minutes-read"
-                                  >۳ دقیقه مطالعه</span
-                                >
-                              </span>
-                            </span>
-                          </span>
-                        </div>
-
-                        <a
-                          href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                          title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                          class="masonry-gallery__item__title"
-                          >چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی
-                          نخواهد بود؟</a
-                        >
-
-                        <div class="masonry-gallery__item__description">
-                          هوش مصنوعی سراغ حرفه&zwnj;ی شما هم خواهد آمد. این را
-                          آتش&zwnj;بیار&zwnj;های معرکه&zwnj;ی توییتر
-                          می&zwnj;نویسند و مدام آن را ف ...
-                        </div>
-                        <div class="masonry-gallery__item__detail">
-                          <div class="user-profile-stat-wrapper">
-                            <span class="user-pic-wrapper">
-                              <img
-                                src="https://www.digikala.com/mag/wp-content/uploads/2021/05/DSC00680-60x60.jpg"
-                                width="30"
-                                height="30"
-                                alt="مجتبی فرهودیان"
-                                class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo"
-                              />
-                            </span>
-                            <span class="author">
-                              <a
-                                href="https://www.digikala.com/mag/user/87017/"
-                                title="ارسال شده توسط مجتبی فرهودیان"
-                                rel="author"
-                                >مجتبی فرهودیان</a
-                              >
-                            </span>
-                          </div>
-                          <i class="icon-clock-icon"></i>
-                          <span class="past-time">۴۸ ثانیه قبل</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4">
-                      <div class="masonry-gallery__item">
-                        <div class="image">
-                          <span class="image__mask"></span>
-
-                          <a
-                            href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                            title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                            class="image__linker"
-                          >
-                            <img
-                              width="284"
-                              height="180"
-                              src="https://www.digikala.com/mag/wp-content/uploads/2023/06/123-284x180.jpg"
-                              class="image__img wp-post-image"
-                              alt="هوش مصنوعی. جنگ ستارگان به سبک وس اندرسون"
-                              decoding="async"
-                              loading="lazy"
-                              srcset="
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-284x180.jpg 284w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-300x190.jpg 300w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-768x487.jpg 768w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-120x76.jpg  120w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-265x168.jpg 265w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-274x173.jpg 274w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-220x140.jpg 220w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123.jpg         915w
-                              "
-                              sizes="(max-width: 284px) 100vw, 284px"
-                            />
-                          </a>
-
-                          <a
-                            href="https://www.digikala.com/mag/category/%d9%81%d8%b1%d9%87%d9%86%da%af-%d9%88-%d9%87%d9%86%d8%b1/%d9%81%db%8c%d9%84%d9%85-%d8%b3%d8%b1%db%8c%d8%a7%d9%84/"
-                            title="فیلم و سریال"
-                            class="image__badge"
-                            >فیلم و سریال</a
-                          >
-                          <span class="image__fav">
-                            <span class="popularity">
-                              <span class="popularity__likes">
-                                <i class="icon-like-icon"></i>
-                                <span class="popularity__likes--num">۰</span>
-                              </span>
-                              <span class="popularity__time-to-read">
-                                <i class="icon-stopwatch"></i>
-                                <span class="popularity__minutes-read"
-                                  >۳ دقیقه مطالعه</span
-                                >
-                              </span>
-                            </span>
-                          </span>
-                        </div>
-
-                        <a
-                          href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                          title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                          class="masonry-gallery__item__title"
-                          >چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی
-                          نخواهد بود؟</a
-                        >
-
-                        <div class="masonry-gallery__item__description">
-                          هوش مصنوعی سراغ حرفه&zwnj;ی شما هم خواهد آمد. این را
-                          آتش&zwnj;بیار&zwnj;های معرکه&zwnj;ی توییتر
-                          می&zwnj;نویسند و مدام آن را ف ...
-                        </div>
-                        <div class="masonry-gallery__item__detail">
-                          <div class="user-profile-stat-wrapper">
-                            <span class="user-pic-wrapper">
-                              <img
-                                src="https://www.digikala.com/mag/wp-content/uploads/2021/05/DSC00680-60x60.jpg"
-                                width="30"
-                                height="30"
-                                alt="مجتبی فرهودیان"
-                                class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo"
-                              />
-                            </span>
-                            <span class="author">
-                              <a
-                                href="https://www.digikala.com/mag/user/87017/"
-                                title="ارسال شده توسط مجتبی فرهودیان"
-                                rel="author"
-                                >مجتبی فرهودیان</a
-                              >
-                            </span>
-                          </div>
-                          <i class="icon-clock-icon"></i>
-                          <span class="past-time">۴۸ ثانیه قبل</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4">
-                      <div class="masonry-gallery__item">
-                        <div class="image">
-                          <span class="image__mask"></span>
-
-                          <a
-                            href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                            title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                            class="image__linker"
-                          >
-                            <img
-                              width="284"
-                              height="180"
-                              src="https://www.digikala.com/mag/wp-content/uploads/2023/06/123-284x180.jpg"
-                              class="image__img wp-post-image"
-                              alt="هوش مصنوعی. جنگ ستارگان به سبک وس اندرسون"
-                              decoding="async"
-                              loading="lazy"
-                              srcset="
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-284x180.jpg 284w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-300x190.jpg 300w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-768x487.jpg 768w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-120x76.jpg  120w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-265x168.jpg 265w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-274x173.jpg 274w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-220x140.jpg 220w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123.jpg         915w
-                              "
-                              sizes="(max-width: 284px) 100vw, 284px"
-                            />
-                          </a>
-
-                          <a
-                            href="https://www.digikala.com/mag/category/%d9%81%d8%b1%d9%87%d9%86%da%af-%d9%88-%d9%87%d9%86%d8%b1/%d9%81%db%8c%d9%84%d9%85-%d8%b3%d8%b1%db%8c%d8%a7%d9%84/"
-                            title="فیلم و سریال"
-                            class="image__badge"
-                            >فیلم و سریال</a
-                          >
-                          <span class="image__fav">
-                            <span class="popularity">
-                              <span class="popularity__likes">
-                                <i class="icon-like-icon"></i>
-                                <span class="popularity__likes--num">۰</span>
-                              </span>
-                              <span class="popularity__time-to-read">
-                                <i class="icon-stopwatch"></i>
-                                <span class="popularity__minutes-read"
-                                  >۳ دقیقه مطالعه</span
-                                >
-                              </span>
-                            </span>
-                          </span>
-                        </div>
-
-                        <a
-                          href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                          title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                          class="masonry-gallery__item__title"
-                          >چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی
-                          نخواهد بود؟</a
-                        >
-
-                        <div class="masonry-gallery__item__description">
-                          هوش مصنوعی سراغ حرفه&zwnj;ی شما هم خواهد آمد. این را
-                          آتش&zwnj;بیار&zwnj;های معرکه&zwnj;ی توییتر
-                          می&zwnj;نویسند و مدام آن را ف ...
-                        </div>
-                        <div class="masonry-gallery__item__detail">
-                          <div class="user-profile-stat-wrapper">
-                            <span class="user-pic-wrapper">
-                              <img
-                                src="https://www.digikala.com/mag/wp-content/uploads/2021/05/DSC00680-60x60.jpg"
-                                width="30"
-                                height="30"
-                                alt="مجتبی فرهودیان"
-                                class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo"
-                              />
-                            </span>
-                            <span class="author">
-                              <a
-                                href="https://www.digikala.com/mag/user/87017/"
-                                title="ارسال شده توسط مجتبی فرهودیان"
-                                rel="author"
-                                >مجتبی فرهودیان</a
-                              >
-                            </span>
-                          </div>
-                          <i class="icon-clock-icon"></i>
-                          <span class="past-time">۴۸ ثانیه قبل</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4">
-                      <div class="masonry-gallery__item">
-                        <div class="image">
-                          <span class="image__mask"></span>
-
-                          <a
-                            href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                            title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                            class="image__linker"
-                          >
-                            <img
-                              width="284"
-                              height="180"
-                              src="https://www.digikala.com/mag/wp-content/uploads/2023/06/123-284x180.jpg"
-                              class="image__img wp-post-image"
-                              alt="هوش مصنوعی. جنگ ستارگان به سبک وس اندرسون"
-                              decoding="async"
-                              loading="lazy"
-                              srcset="
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-284x180.jpg 284w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-300x190.jpg 300w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-768x487.jpg 768w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-120x76.jpg  120w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-265x168.jpg 265w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-274x173.jpg 274w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-220x140.jpg 220w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123.jpg         915w
-                              "
-                              sizes="(max-width: 284px) 100vw, 284px"
-                            />
-                          </a>
-
-                          <a
-                            href="https://www.digikala.com/mag/category/%d9%81%d8%b1%d9%87%d9%86%da%af-%d9%88-%d9%87%d9%86%d8%b1/%d9%81%db%8c%d9%84%d9%85-%d8%b3%d8%b1%db%8c%d8%a7%d9%84/"
-                            title="فیلم و سریال"
-                            class="image__badge"
-                            >فیلم و سریال</a
-                          >
-                          <span class="image__fav">
-                            <span class="popularity">
-                              <span class="popularity__likes">
-                                <i class="icon-like-icon"></i>
-                                <span class="popularity__likes--num">۰</span>
-                              </span>
-                              <span class="popularity__time-to-read">
-                                <i class="icon-stopwatch"></i>
-                                <span class="popularity__minutes-read"
-                                  >۳ دقیقه مطالعه</span
-                                >
-                              </span>
-                            </span>
-                          </span>
-                        </div>
-
-                        <a
-                          href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                          title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                          class="masonry-gallery__item__title"
-                          >چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی
-                          نخواهد بود؟</a
-                        >
-
-                        <div class="masonry-gallery__item__description">
-                          هوش مصنوعی سراغ حرفه&zwnj;ی شما هم خواهد آمد. این را
-                          آتش&zwnj;بیار&zwnj;های معرکه&zwnj;ی توییتر
-                          می&zwnj;نویسند و مدام آن را ف ...
-                        </div>
-                        <div class="masonry-gallery__item__detail">
-                          <div class="user-profile-stat-wrapper">
-                            <span class="user-pic-wrapper">
-                              <img
-                                src="https://www.digikala.com/mag/wp-content/uploads/2021/05/DSC00680-60x60.jpg"
-                                width="30"
-                                height="30"
-                                alt="مجتبی فرهودیان"
-                                class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo"
-                              />
-                            </span>
-                            <span class="author">
-                              <a
-                                href="https://www.digikala.com/mag/user/87017/"
-                                title="ارسال شده توسط مجتبی فرهودیان"
-                                rel="author"
-                                >مجتبی فرهودیان</a
-                              >
-                            </span>
-                          </div>
-                          <i class="icon-clock-icon"></i>
-                          <span class="past-time">۴۸ ثانیه قبل</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4">
-                      <div class="masonry-gallery__item">
-                        <div class="image">
-                          <span class="image__mask"></span>
-
-                          <a
-                            href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                            title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                            class="image__linker"
-                          >
-                            <img
-                              width="284"
-                              height="180"
-                              src="https://www.digikala.com/mag/wp-content/uploads/2023/06/123-284x180.jpg"
-                              class="image__img wp-post-image"
-                              alt="هوش مصنوعی. جنگ ستارگان به سبک وس اندرسون"
-                              decoding="async"
-                              loading="lazy"
-                              srcset="
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-284x180.jpg 284w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-300x190.jpg 300w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-768x487.jpg 768w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-120x76.jpg  120w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-265x168.jpg 265w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-274x173.jpg 274w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-220x140.jpg 220w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123.jpg         915w
-                              "
-                              sizes="(max-width: 284px) 100vw, 284px"
-                            />
-                          </a>
-
-                          <a
-                            href="https://www.digikala.com/mag/category/%d9%81%d8%b1%d9%87%d9%86%da%af-%d9%88-%d9%87%d9%86%d8%b1/%d9%81%db%8c%d9%84%d9%85-%d8%b3%d8%b1%db%8c%d8%a7%d9%84/"
-                            title="فیلم و سریال"
-                            class="image__badge"
-                            >فیلم و سریال</a
-                          >
-                          <span class="image__fav">
-                            <span class="popularity">
-                              <span class="popularity__likes">
-                                <i class="icon-like-icon"></i>
-                                <span class="popularity__likes--num">۰</span>
-                              </span>
-                              <span class="popularity__time-to-read">
-                                <i class="icon-stopwatch"></i>
-                                <span class="popularity__minutes-read"
-                                  >۳ دقیقه مطالعه</span
-                                >
-                              </span>
-                            </span>
-                          </span>
-                        </div>
-
-                        <a
-                          href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                          title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                          class="masonry-gallery__item__title"
-                          >چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی
-                          نخواهد بود؟</a
-                        >
-
-                        <div class="masonry-gallery__item__description">
-                          هوش مصنوعی سراغ حرفه&zwnj;ی شما هم خواهد آمد. این را
-                          آتش&zwnj;بیار&zwnj;های معرکه&zwnj;ی توییتر
-                          می&zwnj;نویسند و مدام آن را ف ...
-                        </div>
-                        <div class="masonry-gallery__item__detail">
-                          <div class="user-profile-stat-wrapper">
-                            <span class="user-pic-wrapper">
-                              <img
-                                src="https://www.digikala.com/mag/wp-content/uploads/2021/05/DSC00680-60x60.jpg"
-                                width="30"
-                                height="30"
-                                alt="مجتبی فرهودیان"
-                                class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo"
-                              />
-                            </span>
-                            <span class="author">
-                              <a
-                                href="https://www.digikala.com/mag/user/87017/"
-                                title="ارسال شده توسط مجتبی فرهودیان"
-                                rel="author"
-                                >مجتبی فرهودیان</a
-                              >
-                            </span>
-                          </div>
-                          <i class="icon-clock-icon"></i>
-                          <span class="past-time">۴۸ ثانیه قبل</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4">
-                      <div class="masonry-gallery__item">
-                        <div class="image">
-                          <span class="image__mask"></span>
-
-                          <a
-                            href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                            title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                            class="image__linker"
-                          >
-                            <img
-                              width="284"
-                              height="180"
-                              src="https://www.digikala.com/mag/wp-content/uploads/2023/06/123-284x180.jpg"
-                              class="image__img wp-post-image"
-                              alt="هوش مصنوعی. جنگ ستارگان به سبک وس اندرسون"
-                              decoding="async"
-                              loading="lazy"
-                              srcset="
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-284x180.jpg 284w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-300x190.jpg 300w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-768x487.jpg 768w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-120x76.jpg  120w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-265x168.jpg 265w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-274x173.jpg 274w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-220x140.jpg 220w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123.jpg         915w
-                              "
-                              sizes="(max-width: 284px) 100vw, 284px"
-                            />
-                          </a>
-
-                          <a
-                            href="https://www.digikala.com/mag/category/%d9%81%d8%b1%d9%87%d9%86%da%af-%d9%88-%d9%87%d9%86%d8%b1/%d9%81%db%8c%d9%84%d9%85-%d8%b3%d8%b1%db%8c%d8%a7%d9%84/"
-                            title="فیلم و سریال"
-                            class="image__badge"
-                            >فیلم و سریال</a
-                          >
-                          <span class="image__fav">
-                            <span class="popularity">
-                              <span class="popularity__likes">
-                                <i class="icon-like-icon"></i>
-                                <span class="popularity__likes--num">۰</span>
-                              </span>
-                              <span class="popularity__time-to-read">
-                                <i class="icon-stopwatch"></i>
-                                <span class="popularity__minutes-read"
-                                  >۳ دقیقه مطالعه</span
-                                >
-                              </span>
-                            </span>
-                          </span>
-                        </div>
-
-                        <a
-                          href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                          title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                          class="masonry-gallery__item__title"
-                          >چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی
-                          نخواهد بود؟</a
-                        >
-
-                        <div class="masonry-gallery__item__description">
-                          هوش مصنوعی سراغ حرفه&zwnj;ی شما هم خواهد آمد. این را
-                          آتش&zwnj;بیار&zwnj;های معرکه&zwnj;ی توییتر
-                          می&zwnj;نویسند و مدام آن را ف ...
-                        </div>
-                        <div class="masonry-gallery__item__detail">
-                          <div class="user-profile-stat-wrapper">
-                            <span class="user-pic-wrapper">
-                              <img
-                                src="https://www.digikala.com/mag/wp-content/uploads/2021/05/DSC00680-60x60.jpg"
-                                width="30"
-                                height="30"
-                                alt="مجتبی فرهودیان"
-                                class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo"
-                              />
-                            </span>
-                            <span class="author">
-                              <a
-                                href="https://www.digikala.com/mag/user/87017/"
-                                title="ارسال شده توسط مجتبی فرهودیان"
-                                rel="author"
-                                >مجتبی فرهودیان</a
-                              >
-                            </span>
-                          </div>
-                          <i class="icon-clock-icon"></i>
-                          <span class="past-time">۴۸ ثانیه قبل</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4">
-                      <div class="masonry-gallery__item">
-                        <div class="image">
-                          <span class="image__mask"></span>
-
-                          <a
-                            href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                            title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                            class="image__linker"
-                          >
-                            <img
-                              width="284"
-                              height="180"
-                              src="https://www.digikala.com/mag/wp-content/uploads/2023/06/123-284x180.jpg"
-                              class="image__img wp-post-image"
-                              alt="هوش مصنوعی. جنگ ستارگان به سبک وس اندرسون"
-                              decoding="async"
-                              loading="lazy"
-                              srcset="
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-284x180.jpg 284w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-300x190.jpg 300w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-768x487.jpg 768w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-120x76.jpg  120w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-265x168.jpg 265w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-274x173.jpg 274w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-220x140.jpg 220w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123.jpg         915w
-                              "
-                              sizes="(max-width: 284px) 100vw, 284px"
-                            />
-                          </a>
-
-                          <a
-                            href="https://www.digikala.com/mag/category/%d9%81%d8%b1%d9%87%d9%86%da%af-%d9%88-%d9%87%d9%86%d8%b1/%d9%81%db%8c%d9%84%d9%85-%d8%b3%d8%b1%db%8c%d8%a7%d9%84/"
-                            title="فیلم و سریال"
-                            class="image__badge"
-                            >فیلم و سریال</a
-                          >
-                          <span class="image__fav">
-                            <span class="popularity">
-                              <span class="popularity__likes">
-                                <i class="icon-like-icon"></i>
-                                <span class="popularity__likes--num">۰</span>
-                              </span>
-                              <span class="popularity__time-to-read">
-                                <i class="icon-stopwatch"></i>
-                                <span class="popularity__minutes-read"
-                                  >۳ دقیقه مطالعه</span
-                                >
-                              </span>
-                            </span>
-                          </span>
-                        </div>
-
-                        <a
-                          href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                          title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                          class="masonry-gallery__item__title"
-                          >چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی
-                          نخواهد بود؟</a
-                        >
-
-                        <div class="masonry-gallery__item__description">
-                          هوش مصنوعی سراغ حرفه&zwnj;ی شما هم خواهد آمد. این را
-                          آتش&zwnj;بیار&zwnj;های معرکه&zwnj;ی توییتر
-                          می&zwnj;نویسند و مدام آن را ف ...
-                        </div>
-                        <div class="masonry-gallery__item__detail">
-                          <div class="user-profile-stat-wrapper">
-                            <span class="user-pic-wrapper">
-                              <img
-                                src="https://www.digikala.com/mag/wp-content/uploads/2021/05/DSC00680-60x60.jpg"
-                                width="30"
-                                height="30"
-                                alt="مجتبی فرهودیان"
-                                class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo"
-                              />
-                            </span>
-                            <span class="author">
-                              <a
-                                href="https://www.digikala.com/mag/user/87017/"
-                                title="ارسال شده توسط مجتبی فرهودیان"
-                                rel="author"
-                                >مجتبی فرهودیان</a
-                              >
-                            </span>
-                          </div>
-                          <i class="icon-clock-icon"></i>
-                          <span class="past-time">۴۸ ثانیه قبل</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4">
-                      <div class="masonry-gallery__item">
-                        <div class="image">
-                          <span class="image__mask"></span>
-
-                          <a
-                            href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                            title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                            class="image__linker"
-                          >
-                            <img
-                              width="284"
-                              height="180"
-                              src="https://www.digikala.com/mag/wp-content/uploads/2023/06/123-284x180.jpg"
-                              class="image__img wp-post-image"
-                              alt="هوش مصنوعی. جنگ ستارگان به سبک وس اندرسون"
-                              decoding="async"
-                              loading="lazy"
-                              srcset="
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-284x180.jpg 284w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-300x190.jpg 300w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-768x487.jpg 768w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-120x76.jpg  120w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-265x168.jpg 265w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-274x173.jpg 274w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-220x140.jpg 220w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123.jpg         915w
-                              "
-                              sizes="(max-width: 284px) 100vw, 284px"
-                            />
-                          </a>
-
-                          <a
-                            href="https://www.digikala.com/mag/category/%d9%81%d8%b1%d9%87%d9%86%da%af-%d9%88-%d9%87%d9%86%d8%b1/%d9%81%db%8c%d9%84%d9%85-%d8%b3%d8%b1%db%8c%d8%a7%d9%84/"
-                            title="فیلم و سریال"
-                            class="image__badge"
-                            >فیلم و سریال</a
-                          >
-                          <span class="image__fav">
-                            <span class="popularity">
-                              <span class="popularity__likes">
-                                <i class="icon-like-icon"></i>
-                                <span class="popularity__likes--num">۰</span>
-                              </span>
-                              <span class="popularity__time-to-read">
-                                <i class="icon-stopwatch"></i>
-                                <span class="popularity__minutes-read"
-                                  >۳ دقیقه مطالعه</span
-                                >
-                              </span>
-                            </span>
-                          </span>
-                        </div>
-
-                        <a
-                          href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                          title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                          class="masonry-gallery__item__title"
-                          >چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی
-                          نخواهد بود؟</a
-                        >
-
-                        <div class="masonry-gallery__item__description">
-                          هوش مصنوعی سراغ حرفه&zwnj;ی شما هم خواهد آمد. این را
-                          آتش&zwnj;بیار&zwnj;های معرکه&zwnj;ی توییتر
-                          می&zwnj;نویسند و مدام آن را ف ...
-                        </div>
-                        <div class="masonry-gallery__item__detail">
-                          <div class="user-profile-stat-wrapper">
-                            <span class="user-pic-wrapper">
-                              <img
-                                src="https://www.digikala.com/mag/wp-content/uploads/2021/05/DSC00680-60x60.jpg"
-                                width="30"
-                                height="30"
-                                alt="مجتبی فرهودیان"
-                                class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo"
-                              />
-                            </span>
-                            <span class="author">
-                              <a
-                                href="https://www.digikala.com/mag/user/87017/"
-                                title="ارسال شده توسط مجتبی فرهودیان"
-                                rel="author"
-                                >مجتبی فرهودیان</a
-                              >
-                            </span>
-                          </div>
-                          <i class="icon-clock-icon"></i>
-                          <span class="past-time">۴۸ ثانیه قبل</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4">
-                      <div class="masonry-gallery__item">
-                        <div class="image">
-                          <span class="image__mask"></span>
-
-                          <a
-                            href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                            title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                            class="image__linker"
-                          >
-                            <img
-                              width="284"
-                              height="180"
-                              src="https://www.digikala.com/mag/wp-content/uploads/2023/06/123-284x180.jpg"
-                              class="image__img wp-post-image"
-                              alt="هوش مصنوعی. جنگ ستارگان به سبک وس اندرسون"
-                              decoding="async"
-                              loading="lazy"
-                              srcset="
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-284x180.jpg 284w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-300x190.jpg 300w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-768x487.jpg 768w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-120x76.jpg  120w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-265x168.jpg 265w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-274x173.jpg 274w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-220x140.jpg 220w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123.jpg         915w
-                              "
-                              sizes="(max-width: 284px) 100vw, 284px"
-                            />
-                          </a>
-
-                          <a
-                            href="https://www.digikala.com/mag/category/%d9%81%d8%b1%d9%87%d9%86%da%af-%d9%88-%d9%87%d9%86%d8%b1/%d9%81%db%8c%d9%84%d9%85-%d8%b3%d8%b1%db%8c%d8%a7%d9%84/"
-                            title="فیلم و سریال"
-                            class="image__badge"
-                            >فیلم و سریال</a
-                          >
-                          <span class="image__fav">
-                            <span class="popularity">
-                              <span class="popularity__likes">
-                                <i class="icon-like-icon"></i>
-                                <span class="popularity__likes--num">۰</span>
-                              </span>
-                              <span class="popularity__time-to-read">
-                                <i class="icon-stopwatch"></i>
-                                <span class="popularity__minutes-read"
-                                  >۳ دقیقه مطالعه</span
-                                >
-                              </span>
-                            </span>
-                          </span>
-                        </div>
-
-                        <a
-                          href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                          title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                          class="masonry-gallery__item__title"
-                          >چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی
-                          نخواهد بود؟</a
-                        >
-
-                        <div class="masonry-gallery__item__description">
-                          هوش مصنوعی سراغ حرفه&zwnj;ی شما هم خواهد آمد. این را
-                          آتش&zwnj;بیار&zwnj;های معرکه&zwnj;ی توییتر
-                          می&zwnj;نویسند و مدام آن را ف ...
-                        </div>
-                        <div class="masonry-gallery__item__detail">
-                          <div class="user-profile-stat-wrapper">
-                            <span class="user-pic-wrapper">
-                              <img
-                                src="https://www.digikala.com/mag/wp-content/uploads/2021/05/DSC00680-60x60.jpg"
-                                width="30"
-                                height="30"
-                                alt="مجتبی فرهودیان"
-                                class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo"
-                              />
-                            </span>
-                            <span class="author">
-                              <a
-                                href="https://www.digikala.com/mag/user/87017/"
-                                title="ارسال شده توسط مجتبی فرهودیان"
-                                rel="author"
-                                >مجتبی فرهودیان</a
-                              >
-                            </span>
-                          </div>
-                          <i class="icon-clock-icon"></i>
-                          <span class="past-time">۴۸ ثانیه قبل</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4">
-                      <div class="masonry-gallery__item">
-                        <div class="image">
-                          <span class="image__mask"></span>
-
-                          <a
-                            href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                            title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                            class="image__linker"
-                          >
-                            <img
-                              width="284"
-                              height="180"
-                              src="https://www.digikala.com/mag/wp-content/uploads/2023/06/123-284x180.jpg"
-                              class="image__img wp-post-image"
-                              alt="هوش مصنوعی. جنگ ستارگان به سبک وس اندرسون"
-                              decoding="async"
-                              loading="lazy"
-                              srcset="
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-284x180.jpg 284w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-300x190.jpg 300w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-768x487.jpg 768w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-120x76.jpg  120w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-265x168.jpg 265w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-274x173.jpg 274w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-220x140.jpg 220w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123.jpg         915w
-                              "
-                              sizes="(max-width: 284px) 100vw, 284px"
-                            />
-                          </a>
-
-                          <a
-                            href="https://www.digikala.com/mag/category/%d9%81%d8%b1%d9%87%d9%86%da%af-%d9%88-%d9%87%d9%86%d8%b1/%d9%81%db%8c%d9%84%d9%85-%d8%b3%d8%b1%db%8c%d8%a7%d9%84/"
-                            title="فیلم و سریال"
-                            class="image__badge"
-                            >فیلم و سریال</a
-                          >
-                          <span class="image__fav">
-                            <span class="popularity">
-                              <span class="popularity__likes">
-                                <i class="icon-like-icon"></i>
-                                <span class="popularity__likes--num">۰</span>
-                              </span>
-                              <span class="popularity__time-to-read">
-                                <i class="icon-stopwatch"></i>
-                                <span class="popularity__minutes-read"
-                                  >۳ دقیقه مطالعه</span
-                                >
-                              </span>
-                            </span>
-                          </span>
-                        </div>
-
-                        <a
-                          href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                          title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                          class="masonry-gallery__item__title"
-                          >چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی
-                          نخواهد بود؟</a
-                        >
-
-                        <div class="masonry-gallery__item__description">
-                          هوش مصنوعی سراغ حرفه&zwnj;ی شما هم خواهد آمد. این را
-                          آتش&zwnj;بیار&zwnj;های معرکه&zwnj;ی توییتر
-                          می&zwnj;نویسند و مدام آن را ف ...
-                        </div>
-                        <div class="masonry-gallery__item__detail">
-                          <div class="user-profile-stat-wrapper">
-                            <span class="user-pic-wrapper">
-                              <img
-                                src="https://www.digikala.com/mag/wp-content/uploads/2021/05/DSC00680-60x60.jpg"
-                                width="30"
-                                height="30"
-                                alt="مجتبی فرهودیان"
-                                class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo"
-                              />
-                            </span>
-                            <span class="author">
-                              <a
-                                href="https://www.digikala.com/mag/user/87017/"
-                                title="ارسال شده توسط مجتبی فرهودیان"
-                                rel="author"
-                                >مجتبی فرهودیان</a
-                              >
-                            </span>
-                          </div>
-                          <i class="icon-clock-icon"></i>
-                          <span class="past-time">۴۸ ثانیه قبل</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4">
-                      <div class="masonry-gallery__item">
-                        <div class="image">
-                          <span class="image__mask"></span>
-
-                          <a
-                            href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                            title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                            class="image__linker"
-                          >
-                            <img
-                              width="284"
-                              height="180"
-                              src="https://www.digikala.com/mag/wp-content/uploads/2023/06/123-284x180.jpg"
-                              class="image__img wp-post-image"
-                              alt="هوش مصنوعی. جنگ ستارگان به سبک وس اندرسون"
-                              decoding="async"
-                              loading="lazy"
-                              srcset="
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-284x180.jpg 284w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-300x190.jpg 300w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-768x487.jpg 768w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-120x76.jpg  120w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-265x168.jpg 265w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-274x173.jpg 274w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-220x140.jpg 220w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123.jpg         915w
-                              "
-                              sizes="(max-width: 284px) 100vw, 284px"
-                            />
-                          </a>
-
-                          <a
-                            href="https://www.digikala.com/mag/category/%d9%81%d8%b1%d9%87%d9%86%da%af-%d9%88-%d9%87%d9%86%d8%b1/%d9%81%db%8c%d9%84%d9%85-%d8%b3%d8%b1%db%8c%d8%a7%d9%84/"
-                            title="فیلم و سریال"
-                            class="image__badge"
-                            >فیلم و سریال</a
-                          >
-                          <span class="image__fav">
-                            <span class="popularity">
-                              <span class="popularity__likes">
-                                <i class="icon-like-icon"></i>
-                                <span class="popularity__likes--num">۰</span>
-                              </span>
-                              <span class="popularity__time-to-read">
-                                <i class="icon-stopwatch"></i>
-                                <span class="popularity__minutes-read"
-                                  >۳ دقیقه مطالعه</span
-                                >
-                              </span>
-                            </span>
-                          </span>
-                        </div>
-
-                        <a
-                          href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                          title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                          class="masonry-gallery__item__title"
-                          >چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی
-                          نخواهد بود؟</a
-                        >
-
-                        <div class="masonry-gallery__item__description">
-                          هوش مصنوعی سراغ حرفه&zwnj;ی شما هم خواهد آمد. این را
-                          آتش&zwnj;بیار&zwnj;های معرکه&zwnj;ی توییتر
-                          می&zwnj;نویسند و مدام آن را ف ...
-                        </div>
-                        <div class="masonry-gallery__item__detail">
-                          <div class="user-profile-stat-wrapper">
-                            <span class="user-pic-wrapper">
-                              <img
-                                src="https://www.digikala.com/mag/wp-content/uploads/2021/05/DSC00680-60x60.jpg"
-                                width="30"
-                                height="30"
-                                alt="مجتبی فرهودیان"
-                                class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo"
-                              />
-                            </span>
-                            <span class="author">
-                              <a
-                                href="https://www.digikala.com/mag/user/87017/"
-                                title="ارسال شده توسط مجتبی فرهودیان"
-                                rel="author"
-                                >مجتبی فرهودیان</a
-                              >
-                            </span>
-                          </div>
-                          <i class="icon-clock-icon"></i>
-                          <span class="past-time">۴۸ ثانیه قبل</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4">
-                      <div class="masonry-gallery__item">
-                        <div class="image">
-                          <span class="image__mask"></span>
-
-                          <a
-                            href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                            title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                            class="image__linker"
-                          >
-                            <img
-                              width="284"
-                              height="180"
-                              src="https://www.digikala.com/mag/wp-content/uploads/2023/06/123-284x180.jpg"
-                              class="image__img wp-post-image"
-                              alt="هوش مصنوعی. جنگ ستارگان به سبک وس اندرسون"
-                              decoding="async"
-                              loading="lazy"
-                              srcset="
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-284x180.jpg 284w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-300x190.jpg 300w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-768x487.jpg 768w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-120x76.jpg  120w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-265x168.jpg 265w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-274x173.jpg 274w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123-220x140.jpg 220w,
-                                https://www.digikala.com/mag/wp-content/uploads/2023/06/123.jpg         915w
-                              "
-                              sizes="(max-width: 284px) 100vw, 284px"
-                            />
-                          </a>
-
-                          <a
-                            href="https://www.digikala.com/mag/category/%d9%81%d8%b1%d9%87%d9%86%da%af-%d9%88-%d9%87%d9%86%d8%b1/%d9%81%db%8c%d9%84%d9%85-%d8%b3%d8%b1%db%8c%d8%a7%d9%84/"
-                            title="فیلم و سریال"
-                            class="image__badge"
-                            >فیلم و سریال</a
-                          >
-                          <span class="image__fav">
-                            <span class="popularity">
-                              <span class="popularity__likes">
-                                <i class="icon-like-icon"></i>
-                                <span class="popularity__likes--num">۰</span>
-                              </span>
-                              <span class="popularity__time-to-read">
-                                <i class="icon-stopwatch"></i>
-                                <span class="popularity__minutes-read"
-                                  >۳ دقیقه مطالعه</span
-                                >
-                              </span>
-                            </span>
-                          </span>
-                        </div>
-
-                        <a
-                          href="https://www.digikala.com/mag/why-ai-will-never-be-capable-of-creating-a-cinematic-masterpiece/"
-                          title="چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی نخواهد بود؟"
-                          class="masonry-gallery__item__title"
-                          >چرا هوش مصنوعی هیچگاه قادر به ساختن شاهکار سینمایی
-                          نخواهد بود؟</a
-                        >
-
-                        <div class="masonry-gallery__item__description">
-                          هوش مصنوعی سراغ حرفه&zwnj;ی شما هم خواهد آمد. این را
-                          آتش&zwnj;بیار&zwnj;های معرکه&zwnj;ی توییتر
-                          می&zwnj;نویسند و مدام آن را ف ...
-                        </div>
-                        <div class="masonry-gallery__item__detail">
-                          <div class="user-profile-stat-wrapper">
-                            <span class="user-pic-wrapper">
-                              <img
-                                src="https://www.digikala.com/mag/wp-content/uploads/2021/05/DSC00680-60x60.jpg"
-                                width="30"
-                                height="30"
-                                alt="مجتبی فرهودیان"
-                                class="avatar avatar-30 wp-user-avatar wp-user-avatar-30 alignnone photo"
-                              />
-                            </span>
-                            <span class="author">
-                              <a
-                                href="https://www.digikala.com/mag/user/87017/"
-                                title="ارسال شده توسط مجتبی فرهودیان"
-                                rel="author"
-                                >مجتبی فرهودیان</a
-                              >
-                            </span>
-                          </div>
-                          <i class="icon-clock-icon"></i>
-                          <span class="past-time">۴۸ ثانیه قبل</span>
-                        </div>
-                      </div>
+                    <div class="module-title justify-content-center">
+                      <a
+                        href="https://www.digikala.com/mag/%D8%A8%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%DB%8C/page/3/"
+                        class="module-title__btn d-block d-md-none module-title__btn_list"
+                        >عناوین بیشتر</a
+                      >
                     </div>
                   </div>
                 </section>
               </div>
-            
             </div>
             <div class="col-lg-3">
               <div class="sidebar topics__aside">
@@ -2677,7 +1683,7 @@
                 </div>
                 <div
                   id="popular-posts-2"
-                  class="home-hover-widget widget-wrapper favourites favourites-post-widget"
+                  class="home-hover-widget widget-wrapper favourites favourites-post-widget favourites-post-widget-res"
                 >
                   <div class="widget-title">
                     <span>محبوب&zwnj;ترین عنوان&zwnj;ها</span>
@@ -3022,7 +2028,7 @@
                 </div>
                 <div
                   id="popular-posts-2"
-                  class="home-hover-widget widget-wrapper favourites favourites-post-widget"
+                  class="home-hover-widget widget-wrapper favourites favourites-post-widget favourites-post-widget-res"
                 >
                   <div class="widget-title">
                     <span>محبوب&zwnj;ترین عنوان&zwnj;ها</span>
@@ -3365,17 +2371,316 @@
                     </li>
                   </ul>
                 </div>
+                <div class=" popular__news">
+                  <div class="module-title">
+                    <div class="module-title__txt">
+                      <span class="bold">محبوب ترین </span
+                      ><span>اخبار &zwnj;ها</span>
+                    </div>
+                    <div class="module-title__sep"></div>
+                  </div>
+                  <div class="swiper popular_news">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div
+                          id="popular-posts-2"
+                          class="home-hover-widget widget-wrapper favourites favourites-post-widget"
+                        >
+                          <ul class="favourites__list">
+                            <li class="item post">
+                              <a
+                                href="https://www.digikala.com/mag/7-reasons-why-kids-love-paw-patrol/"
+                                title="۷ دلیل علاقه&zwnj;ی زیاد بچه&zwnj;ها به انیمیشن «سگ&zwnj;های نگهبان»"
+                                class="item__image"
+                              >
+                                <img
+                                  width="60"
+                                  height="60"
+                                  src="https://www.digikala.com/mag/wp-content/uploads/2022/08/0-2-60x60.jpg"
+                                  class="item__image--img wp-post-image"
+                                  alt="انیمیشن سگ&zwnj;های نگهبان"
+                                  decoding="async"
+                                  loading="lazy"
+                                  srcset="
+                                    https://www.digikala.com/mag/wp-content/uploads/2022/08/0-2-60x60.jpg    60w,
+                                    https://www.digikala.com/mag/wp-content/uploads/2022/08/0-2-150x150.jpg 150w
+                                  "
+                                  sizes="(max-width: 60px) 100vw, 60px"
+                                />
+                              </a>
+                              <div class="item__detail">
+                                <a
+                                  href="https://www.digikala.com/mag/7-reasons-why-kids-love-paw-patrol/"
+                                  title="۷ دلیل علاقه&zwnj;ی زیاد بچه&zwnj;ها به انیمیشن «سگ&zwnj;های نگهبان»"
+                                  class="item__detail--txt"
+                                  >۷ دلیل علاقه&zwnj;ی زیاد بچه&zwnj;ها به
+                                  انیمیشن «سگ&zwnj;های نگهبان»</a
+                                >
+                                <div class="item__detail--time">
+                                  <i class="icon-clock-icon"></i>
+                                  <span class="past">۱۰ ماه قبل</span>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div
+                          id="popular-posts-2"
+                          class="home-hover-widget widget-wrapper favourites favourites-post-widget"
+                        >
+                          <ul class="favourites__list">
+                            <li class="item post">
+                              <a
+                                href="https://www.digikala.com/mag/7-reasons-why-kids-love-paw-patrol/"
+                                title="۷ دلیل علاقه&zwnj;ی زیاد بچه&zwnj;ها به انیمیشن «سگ&zwnj;های نگهبان»"
+                                class="item__image"
+                              >
+                                <img
+                                  width="60"
+                                  height="60"
+                                  src="https://www.digikala.com/mag/wp-content/uploads/2022/08/0-2-60x60.jpg"
+                                  class="item__image--img wp-post-image"
+                                  alt="انیمیشن سگ&zwnj;های نگهبان"
+                                  decoding="async"
+                                  loading="lazy"
+                                  srcset="
+                                    https://www.digikala.com/mag/wp-content/uploads/2022/08/0-2-60x60.jpg    60w,
+                                    https://www.digikala.com/mag/wp-content/uploads/2022/08/0-2-150x150.jpg 150w
+                                  "
+                                  sizes="(max-width: 60px) 100vw, 60px"
+                                />
+                              </a>
+                              <div class="item__detail">
+                                <a
+                                  href="https://www.digikala.com/mag/7-reasons-why-kids-love-paw-patrol/"
+                                  title="۷ دلیل علاقه&zwnj;ی زیاد بچه&zwnj;ها به انیمیشن «سگ&zwnj;های نگهبان»"
+                                  class="item__detail--txt"
+                                  >۷ دلیل علاقه&zwnj;ی زیاد بچه&zwnj;ها به
+                                  انیمیشن «سگ&zwnj;های نگهبان»</a
+                                >
+                                <div class="item__detail--time">
+                                  <i class="icon-clock-icon"></i>
+                                  <span class="past">۱۰ ماه قبل</span>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div
+                          id="popular-posts-2"
+                          class="home-hover-widget widget-wrapper favourites favourites-post-widget"
+                        >
+                          <ul class="favourites__list">
+                            <li class="item post">
+                              <a
+                                href="https://www.digikala.com/mag/7-reasons-why-kids-love-paw-patrol/"
+                                title="۷ دلیل علاقه&zwnj;ی زیاد بچه&zwnj;ها به انیمیشن «سگ&zwnj;های نگهبان»"
+                                class="item__image"
+                              >
+                                <img
+                                  width="60"
+                                  height="60"
+                                  src="https://www.digikala.com/mag/wp-content/uploads/2022/08/0-2-60x60.jpg"
+                                  class="item__image--img wp-post-image"
+                                  alt="انیمیشن سگ&zwnj;های نگهبان"
+                                  decoding="async"
+                                  loading="lazy"
+                                  srcset="
+                                    https://www.digikala.com/mag/wp-content/uploads/2022/08/0-2-60x60.jpg    60w,
+                                    https://www.digikala.com/mag/wp-content/uploads/2022/08/0-2-150x150.jpg 150w
+                                  "
+                                  sizes="(max-width: 60px) 100vw, 60px"
+                                />
+                              </a>
+                              <div class="item__detail">
+                                <a
+                                  href="https://www.digikala.com/mag/7-reasons-why-kids-love-paw-patrol/"
+                                  title="۷ دلیل علاقه&zwnj;ی زیاد بچه&zwnj;ها به انیمیشن «سگ&zwnj;های نگهبان»"
+                                  class="item__detail--txt"
+                                  >۷ دلیل علاقه&zwnj;ی زیاد بچه&zwnj;ها به
+                                  انیمیشن «سگ&zwnj;های نگهبان»</a
+                                >
+                                <div class="item__detail--time">
+                                  <i class="icon-clock-icon"></i>
+                                  <span class="past">۱۰ ماه قبل</span>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- <div class="swiper-pagination"></div> -->
+                  </div>
+                </div>
+                <div class="popular__news ">
+                  <div class="module-title">
+                    <div class="module-title__txt">
+                      <span class="bold"> اخبار علم و فناوری </span>
+                    </div>
+                    <div class="module-title__sep"></div>
+                  </div>
+                  <div class="swiper popular_news">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div
+                          id="popular-posts-2"
+                          class="home-hover-widget widget-wrapper favourites favourites-post-widget"
+                        >
+                          <ul class="favourites__list">
+                            <li class="item post">
+                              <a
+                                href="https://www.digikala.com/mag/7-reasons-why-kids-love-paw-patrol/"
+                                title="۷ دلیل علاقه&zwnj;ی زیاد بچه&zwnj;ها به انیمیشن «سگ&zwnj;های نگهبان»"
+                                class="item__image"
+                              >
+                                <img
+                                  width="60"
+                                  height="60"
+                                  src="https://www.digikala.com/mag/wp-content/uploads/2022/08/0-2-60x60.jpg"
+                                  class="item__image--img wp-post-image"
+                                  alt="انیمیشن سگ&zwnj;های نگهبان"
+                                  decoding="async"
+                                  loading="lazy"
+                                  srcset="
+                                    https://www.digikala.com/mag/wp-content/uploads/2022/08/0-2-60x60.jpg    60w,
+                                    https://www.digikala.com/mag/wp-content/uploads/2022/08/0-2-150x150.jpg 150w
+                                  "
+                                  sizes="(max-width: 60px) 100vw, 60px"
+                                />
+                              </a>
+                              <div class="item__detail">
+                                <a
+                                  href="https://www.digikala.com/mag/7-reasons-why-kids-love-paw-patrol/"
+                                  title="۷ دلیل علاقه&zwnj;ی زیاد بچه&zwnj;ها به انیمیشن «سگ&zwnj;های نگهبان»"
+                                  class="item__detail--txt"
+                                  >۷ دلیل علاقه&zwnj;ی زیاد بچه&zwnj;ها به
+                                  انیمیشن «سگ&zwnj;های نگهبان»</a
+                                >
+                                <div class="item__detail--time">
+                                  <i class="icon-clock-icon"></i>
+                                  <span class="past">۱۰ ماه قبل</span>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div
+                          id="popular-posts-2"
+                          class="home-hover-widget widget-wrapper favourites favourites-post-widget"
+                        >
+                          <ul class="favourites__list">
+                            <li class="item post">
+                              <a
+                                href="https://www.digikala.com/mag/7-reasons-why-kids-love-paw-patrol/"
+                                title="۷ دلیل علاقه&zwnj;ی زیاد بچه&zwnj;ها به انیمیشن «سگ&zwnj;های نگهبان»"
+                                class="item__image"
+                              >
+                                <img
+                                  width="60"
+                                  height="60"
+                                  src="https://www.digikala.com/mag/wp-content/uploads/2022/08/0-2-60x60.jpg"
+                                  class="item__image--img wp-post-image"
+                                  alt="انیمیشن سگ&zwnj;های نگهبان"
+                                  decoding="async"
+                                  loading="lazy"
+                                  srcset="
+                                    https://www.digikala.com/mag/wp-content/uploads/2022/08/0-2-60x60.jpg    60w,
+                                    https://www.digikala.com/mag/wp-content/uploads/2022/08/0-2-150x150.jpg 150w
+                                  "
+                                  sizes="(max-width: 60px) 100vw, 60px"
+                                />
+                              </a>
+                              <div class="item__detail">
+                                <a
+                                  href="https://www.digikala.com/mag/7-reasons-why-kids-love-paw-patrol/"
+                                  title="۷ دلیل علاقه&zwnj;ی زیاد بچه&zwnj;ها به انیمیشن «سگ&zwnj;های نگهبان»"
+                                  class="item__detail--txt"
+                                  >۷ دلیل علاقه&zwnj;ی زیاد بچه&zwnj;ها به
+                                  انیمیشن «سگ&zwnj;های نگهبان»</a
+                                >
+                                <div class="item__detail--time">
+                                  <i class="icon-clock-icon"></i>
+                                  <span class="past">۱۰ ماه قبل</span>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div
+                          id="popular-posts-2"
+                          class="home-hover-widget widget-wrapper favourites favourites-post-widget"
+                        >
+                          <ul class="favourites__list">
+                            <li class="item post">
+                              <a
+                                href="https://www.digikala.com/mag/7-reasons-why-kids-love-paw-patrol/"
+                                title="۷ دلیل علاقه&zwnj;ی زیاد بچه&zwnj;ها به انیمیشن «سگ&zwnj;های نگهبان»"
+                                class="item__image"
+                              >
+                                <img
+                                  width="60"
+                                  height="60"
+                                  src="https://www.digikala.com/mag/wp-content/uploads/2022/08/0-2-60x60.jpg"
+                                  class="item__image--img wp-post-image"
+                                  alt="انیمیشن سگ&zwnj;های نگهبان"
+                                  decoding="async"
+                                  loading="lazy"
+                                  srcset="
+                                    https://www.digikala.com/mag/wp-content/uploads/2022/08/0-2-60x60.jpg    60w,
+                                    https://www.digikala.com/mag/wp-content/uploads/2022/08/0-2-150x150.jpg 150w
+                                  "
+                                  sizes="(max-width: 60px) 100vw, 60px"
+                                />
+                              </a>
+                              <div class="item__detail">
+                                <a
+                                  href="https://www.digikala.com/mag/7-reasons-why-kids-love-paw-patrol/"
+                                  title="۷ دلیل علاقه&zwnj;ی زیاد بچه&zwnj;ها به انیمیشن «سگ&zwnj;های نگهبان»"
+                                  class="item__detail--txt"
+                                  >۷ دلیل علاقه&zwnj;ی زیاد بچه&zwnj;ها به
+                                  انیمیشن «سگ&zwnj;های نگهبان»</a
+                                >
+                                <div class="item__detail--time">
+                                  <i class="icon-clock-icon"></i>
+                                  <span class="past">۱۰ ماه قبل</span>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- <div class="swiper-pagination"></div> -->
+                  </div>
+                </div>
+                <div class="module-title justify-content-center">
+                  <a
+                    href=" "
+                    target="_self"
+                    class="module-title__btn d-block d-md-none "
+                    >مشاهده عناوین بیشتر</a
+                  >
+                </div>
               </div>
             </div>
             <div class="col-lg-9">
-                <div class="module-title">
-                    <div class="module-title__sep"></div>
-                    <a
-                      href="https://www.digikala.com/mag/%D8%A8%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%DB%8C/page/3/"
-                      class="module-title__btn"
-                      >مشاهده عناوین بیشتر</a
-                    >
-                  </div>
+              <div class="module-title ">
+                <div class="module-title__sep"></div>
+                <a
+                  href="https://www.digikala.com/mag/%D8%A8%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%DB%8C/page/3/"
+                  class="module-title__btn"
+                  >مشاهده عناوین بیشتر</a
+                >
+              </div>
             </div>
           </div>
         </div>
@@ -3491,28 +2796,28 @@
             تعلق دارد.
           </div>
 
-          <div class="social-networks">
+          <!-- <div class="social-networks">
             <a
               href="https://www.instagram.com/digikalamag/"
               title="instagram social"
-              class="icon-instagram"
+              class="icon-instagram bi bi-instagram"
               target="_blank"
             ></a>
 
             <a
               href="https://twitter.com/digikalamag"
               title="twitter social"
-              class="icon-twitter"
+              class="icon-twitter bi bi-twitter"
               target="_blank"
             ></a>
 
             <a
               href="https://www.aparat.com/Digikalamag"
               title="facebook social"
-              class="icon-aparat"
+              class="icon-aparat bi bi-youtube"
               target="_blank"
             ></a>
-          </div>
+          </div> -->
         </div>
       </div>
     </footer>
@@ -3525,11 +2830,116 @@
 
     <script>
       var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 4,
+        slidesPerView: 1,
         spaceBetween: 20,
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
+        },
+
+        breakpoints: {
+          // when window width is >= 1300px
+          1400: {
+            slidesPerView: 5.5,
+            spaceBetween: 0,
+          },
+          // when window width is >=  1200px
+          1350: {
+            slidesPerView: 4.5,
+            spaceBetween: 10,
+          },
+          // when window width is >= 992px
+          992: {
+            slidesPerView: 4.5,
+            spaceBetween: 10,
+          },
+          // when window width is >= 768px
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          // when window width is >= 500px
+          500: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          // when window width is >= 480px
+          480: {
+            slidesPerView: 1,
+            spaceBetween: 5,
+          },
+        },
+      });
+      var swiper = new Swiper(".IntroSwiper", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        breakpoints: {
+          // when window width is >=  1200px
+          1200: {
+            slidesPerView: 3.2,
+            spaceBetween: 10,
+          },
+          // when window width is >= 992px
+          992: {
+            slidesPerView: 2.8,
+            spaceBetween: 10,
+          },
+          // when window width is >= 768px
+          768: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          // when window width is >= 500px
+          500: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          // when window width is >= 480px
+          480: {
+            slidesPerView: 1,
+            spaceBetween: 5,
+          },
+        },
+      });
+      var swiper = new Swiper(".popular_news", {
+        slidesPerView: 1.1,
+        spaceBetween: 20,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        breakpoints: {
+          // when window width is >=  1200px
+          1200: {
+            slidesPerView: 3.2,
+            spaceBetween: 10,
+          },
+          // when window width is >= 992px
+          992: {
+            slidesPerView: 2.8,
+            spaceBetween: 10,
+          },
+          // when window width is >= 768px
+          768: {
+            slidesPerView: 1.2,
+            spaceBetween: 10,
+          },
+          // when window width is >= 500px
+          500: {
+            slidesPerView: 1.2,
+            spaceBetween: 10,
+          },
+          // when window width is >= 480px
+          480: {
+            slidesPerView: 1.2,
+            spaceBetween: 5,
+          },
         },
       });
     </script>
