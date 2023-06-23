@@ -85,6 +85,9 @@
   .hashtag__title {
     width: 25%;
   } 
+  .menu {
+    box-shadow: none;
+  }
 }
 
 @media (min-width: 1201px) {

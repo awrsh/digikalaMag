@@ -29,6 +29,11 @@
     <link rel="stylesheet" href="assets/css/responsive.css" />
   </head>
   <body>
+    <!-- <div class="overlay"></div> -->
+    <div class="position-absolute">
+      <div class="overlay"></div>
+
+    </div>
     <div class="top-header">
       <div id="home-top-banner-sidebar" class="home-top-tile-banner-single">
         <h2 class="disappear">home top banner ad</h2>
@@ -74,7 +79,10 @@
           aria-labelledby="offcanvasExampleLabel"
         >
           <div class="offcanvas-header">
-            <a href="https://www.digikala.com/mag/" class="logo white fs-2 fw-bold w-100 py-2">
+            <a
+              href="https://www.digikala.com/mag/"
+              class="logo white fs-2 fw-bold w-100 py-2"
+            >
               DigikalaMAG
               <i class="icon-dkmag-logo-horizontal"></i>
             </a>
@@ -179,6 +187,7 @@
                     >فروشگاه اینترنتی دیجی&zwnj;کالا</a
                   >
                 </li>
+                <!-- <div class="overlay"></div> -->
               </ul>
             </nav>
           </div>
@@ -375,7 +384,6 @@
                 </li>
               </ul>
             </nav>
-            <div class="overlay"></div>
             <!-- Add this div after the nav element -->
             <aside id="home-menu-bottom-sidebar" class="sidebar mt-3">
               <h2 class="disappear">home menu bottom sidebar</h2>
@@ -470,7 +478,7 @@
                               alt="چرا گوشی شیائومی پوکو F5 ارزش خرید بالایی دارد؟"
                               width="928"
                               height="522"
-                              class="tiles__item--img w-100 tiles__item--img-res "
+                              class="tiles__item--img w-100 tiles__item--img-res"
                             />
                             <span class="tiles__item--txt w-100">
                               <span
@@ -2371,7 +2379,7 @@
                     </li>
                   </ul>
                 </div>
-                <div class=" popular__news">
+                <div class="popular__news">
                   <div class="module-title">
                     <div class="module-title__txt">
                       <span class="bold">محبوب ترین </span
@@ -2517,7 +2525,7 @@
                     <!-- <div class="swiper-pagination"></div> -->
                   </div>
                 </div>
-                <div class="popular__news ">
+                <div class="popular__news">
                   <div class="module-title">
                     <div class="module-title__txt">
                       <span class="bold"> اخبار علم و فناوری </span>
@@ -2666,14 +2674,14 @@
                   <a
                     href=" "
                     target="_self"
-                    class="module-title__btn d-block d-md-none "
+                    class="module-title__btn d-block d-md-none"
                     >مشاهده عناوین بیشتر</a
                   >
                 </div>
               </div>
             </div>
             <div class="col-lg-9">
-              <div class="module-title ">
+              <div class="module-title">
                 <div class="module-title__sep"></div>
                 <a
                   href="https://www.digikala.com/mag/%D8%A8%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%DB%8C/page/3/"
@@ -2829,119 +2837,133 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 1,
-        spaceBetween: 10,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
+     // گرفتن لیست تمام المان های منوی پست
 
-        breakpoints: {
-          // when window width is >= 1300px
-          1400: {
-            slidesPerView: 5.5,
-            spaceBetween: 0,
-          },
-          // when window width is >=  1200px
-          1350: {
-            slidesPerView: 4.5,
-            spaceBetween: 10,
-          },
-          // when window width is >= 992px
-          992: {
-            slidesPerView: 4.5,
-            spaceBetween: 10,
-          },
-          // when window width is >= 768px
-          768: {
-            slidesPerView: 2,
-            spaceBetween: 10,
-          },
-          // when window width is >= 500px
-          500: {
-            slidesPerView: 2,
-            spaceBetween: 10,
-          },
-          // when window width is >= 480px
-          480: {
-            slidesPerView: 1,
-            spaceBetween: 5,
-          },
+    // const menuItems = Array.from(document.querySelectorAll('.menu-item-type-post_type'));
+    // menuItems.forEach((menuItem) => {
+    //   menuItem.addEventListener('mouseenter', () => {
+    //     menuItem.classList.add('overlay');
+    //   });
+
+    //   menuItem.addEventListener('mouseleave', () => {
+    //     menuItem.classList.remove('overlay');
+    //   });
+    // });
+
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+
+      breakpoints: {
+        // when window width is >= 1300px
+        1400: {
+          slidesPerView: 5.5,
+          spaceBetween: 0,
         },
-      });
+        // when window width is >=  1200px
+        1350: {
+          slidesPerView: 4.5,
+          spaceBetween: 10,
+        },
+        // when window width is >= 992px
+        992: {
+          slidesPerView: 4.5,
+          spaceBetween: 10,
+        },
+        // when window width is >= 768px
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+        // when window width is >= 500px
+        500: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+        // when window width is >= 480px
+        480: {
+          slidesPerView: 1,
+          spaceBetween: 5,
+        },
+      },
+    });
+
       var swiper = new Swiper(".IntroSwiper", {
-        slidesPerView: 1,
-        spaceBetween: 20,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
+      slidesPerView: 1,
+      spaceBetween: 20,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
 
-        breakpoints: {
-          // when window width is >=  1200px
-          1200: {
-            slidesPerView: 3.2,
-            spaceBetween: 10,
-          },
-          // when window width is >= 992px
-          992: {
-            slidesPerView: 2.8,
-            spaceBetween: 10,
-          },
-          // when window width is >= 768px
-          768: {
-            slidesPerView: 1,
-            spaceBetween: 10,
-          },
-          // when window width is >= 500px
-          500: {
-            slidesPerView: 1,
-            spaceBetween: 10,
-          },
-          // when window width is >= 480px
-          480: {
-            slidesPerView: 1,
-            spaceBetween: 5,
-          },
+      breakpoints: {
+        // when window width is >=  1200px
+        1200: {
+          slidesPerView: 3.2,
+          spaceBetween: 10,
         },
-      });
-      var swiper = new Swiper(".popular_news", {
-        slidesPerView: 1.1,
-        spaceBetween: 20,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
+        // when window width is >= 992px
+        992: {
+          slidesPerView: 2.8,
+          spaceBetween: 10,
         },
+        // when window width is >= 768px
+        768: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        // when window width is >= 500px
+        500: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        // when window width is >= 480px
+        480: {
+          slidesPerView: 1,
+          spaceBetween: 5,
+        },
+      },
+    });
+    var swiper = new Swiper(".popular_news", {
+      slidesPerView: 1.1,
+      spaceBetween: 20,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
 
-        breakpoints: {
-          // when window width is >=  1200px
-          1200: {
-            slidesPerView: 3.2,
-            spaceBetween: 10,
-          },
-          // when window width is >= 992px
-          992: {
-            slidesPerView: 2.8,
-            spaceBetween: 10,
-          },
-          // when window width is >= 768px
-          768: {
-            slidesPerView: 1.2,
-            spaceBetween: 10,
-          },
-          // when window width is >= 500px
-          500: {
-            slidesPerView: 1.2,
-            spaceBetween: 10,
-          },
-          // when window width is >= 480px
-          480: {
-            slidesPerView: 1.2,
-            spaceBetween: 5,
-          },
+      breakpoints: {
+        // when window width is >=  1200px
+        1200: {
+          slidesPerView: 3.2,
+          spaceBetween: 10,
         },
-      });
+        // when window width is >= 992px
+        992: {
+          slidesPerView: 2.8,
+          spaceBetween: 10,
+        },
+        // when window width is >= 768px
+        768: {
+          slidesPerView: 1.2,
+          spaceBetween: 10,
+        },
+        // when window width is >= 500px
+        500: {
+          slidesPerView: 1.2,
+          spaceBetween: 10,
+        },
+        // when window width is >= 480px
+        480: {
+          slidesPerView: 1.2,
+          spaceBetween: 5,
+        },
+      },
+    });
     </script>
   </body>
 </html>

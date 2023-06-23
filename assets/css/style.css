@@ -97,6 +97,11 @@ a {
 .offcanvas-body .menu__row--txt {
   font-size: 18px;
 }
+.offcanvas-start {
+  width: 340px;
+}
+
+
 /* Header  */
 
 /* main  */
@@ -127,6 +132,22 @@ a {
 .menu-item-type-post_type {
   padding: 16px 30px;
 }
+
+.menu-item-type-post_type:hover + .overlay {
+  display: block;
+}
+
+.overlay {
+  top: 0;
+  left: 0;
+  background: red;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: none;
+}
+
+
 .menu__row--txt {
   -webkit-flex-grow: 1;
   flex-grow: 0.9;
@@ -771,18 +792,6 @@ a {
 }
 /* Footer */
 
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 9999;
-  background-color: #0001;
-  opacity: 0; /* start with 0 opacity */
-  pointer-events: none; /* ignore clicks on overlay */
-  transition: opacity 0.3s ease-in-out; /* for smooth fade in/out */
-}
 
 .homepage__header__aside:hover {
   margin-bottom: 0;
