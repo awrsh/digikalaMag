@@ -27,6 +27,7 @@
 .tiles__item--txt {
   height: 76px;
   font-size: 14px;
+  font-weight: 700;
 }
 @media (max-width: 1439px) {
   .tiles__item {
@@ -116,7 +117,7 @@
 
 @media (max-width: 767px) { 
   .box-card {
-    width: 100%;
+    width: 90%;
   }
   .box-card {
     margin-bottom: 2rem;
@@ -183,4 +184,10 @@
   .popular__news   {
     display: none;
   }
+}
+
+@media (max-width: 550px) {
+  .hashtag__title {
+    width: 300px;
+}
 }
